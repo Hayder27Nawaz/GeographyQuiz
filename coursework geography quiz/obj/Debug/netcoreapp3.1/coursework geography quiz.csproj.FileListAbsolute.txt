@@ -1,0 +1,20 @@
+F:\coursework geography quiz\coursework geography quiz\bin\Debug\netcoreapp3.1\coursework geography quiz.exe
+F:\coursework geography quiz\coursework geography quiz\bin\Debug\netcoreapp3.1\coursework geography quiz.deps.json
+F:\coursework geography quiz\coursework geography quiz\bin\Debug\netcoreapp3.1\coursework geography quiz.runtimeconfig.json
+F:\coursework geography quiz\coursework geography quiz\bin\Debug\netcoreapp3.1\coursework geography quiz.runtimeconfig.dev.json
+F:\coursework geography quiz\coursework geography quiz\bin\Debug\netcoreapp3.1\coursework geography quiz.dll
+F:\coursework geography quiz\coursework geography quiz\bin\Debug\netcoreapp3.1\coursework geography quiz.pdb
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.csproj.AssemblyReference.cache
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework_geography_quiz.Form1.resources
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework_geography_quiz.Properties.Resources.resources
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.csproj.GenerateResource.cache
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.GeneratedMSBuildEditorConfig.editorconfig
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.AssemblyInfoInputs.cache
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.AssemblyInfo.cs
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.csproj.CoreCompileInputs.cache
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.dll
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.pdb
+F:\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.genruntimeconfig.cache
+C:\Users\Hayder\Documents\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.csproj.AssemblyReference.cache
+C:\Users\Hayder\Documents\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.dll
+C:\Users\Hayder\Documents\coursework geography quiz\coursework geography quiz\obj\Debug\netcoreapp3.1\coursework geography quiz.pdb

@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "geography coursework", "geography coursework\geography coursework.csproj", "{F450D11E-2619-4AAC-964D-DD4A86A30B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoretoGeographyWebApp", "LoretoGeographyWebApp\LoretoGeographyWebApp.csproj", "{8939A00F-BE62-4AC8-B5AF-BE021CA35156}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{F450D11E-2619-4AAC-964D-DD4A86A30B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F450D11E-2619-4AAC-964D-DD4A86A30B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F450D11E-2619-4AAC-964D-DD4A86A30B36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8939A00F-BE62-4AC8-B5AF-BE021CA35156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8939A00F-BE62-4AC8-B5AF-BE021CA35156}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8939A00F-BE62-4AC8-B5AF-BE021CA35156}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8939A00F-BE62-4AC8-B5AF-BE021CA35156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,9 @@
 ﻿
+using System;
+
 namespace geography_coursework
 {
-    partial class Form3
+    partial class QuizPage
     {
         /// <summary>
         /// Required designer variable.
@@ -42,9 +44,10 @@ namespace geography_coursework
             this.buttonD.Cursor = System.Windows.Forms.Cursors.PanSE;
             this.buttonD.Font = new System.Drawing.Font("Comic Sans MS", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonD.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonD.Location = new System.Drawing.Point(474, 321);
+            this.buttonD.Location = new System.Drawing.Point(677, 535);
+            this.buttonD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonD.Name = "buttonD";
-            this.buttonD.Size = new System.Drawing.Size(314, 100);
+            this.buttonD.Size = new System.Drawing.Size(449, 167);
             this.buttonD.TabIndex = 0;
             this.buttonD.Text = "D";
             this.buttonD.UseVisualStyleBackColor = false;
@@ -56,9 +59,10 @@ namespace geography_coursework
             this.buttonC.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.buttonC.Font = new System.Drawing.Font("Comic Sans MS", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonC.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonC.Location = new System.Drawing.Point(12, 321);
+            this.buttonC.Location = new System.Drawing.Point(17, 535);
+            this.buttonC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonC.Name = "buttonC";
-            this.buttonC.Size = new System.Drawing.Size(314, 100);
+            this.buttonC.Size = new System.Drawing.Size(449, 167);
             this.buttonC.TabIndex = 1;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = false;
@@ -69,12 +73,14 @@ namespace geography_coursework
             this.buttonB.Cursor = System.Windows.Forms.Cursors.PanNE;
             this.buttonB.Font = new System.Drawing.Font("Comic Sans MS", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonB.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonB.Location = new System.Drawing.Point(474, 215);
+            this.buttonB.Location = new System.Drawing.Point(677, 358);
+            this.buttonB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonB.Name = "buttonB";
-            this.buttonB.Size = new System.Drawing.Size(314, 100);
+            this.buttonB.Size = new System.Drawing.Size(449, 167);
             this.buttonB.TabIndex = 2;
             this.buttonB.Text = "B";
             this.buttonB.UseVisualStyleBackColor = false;
+            this.buttonB.Click += new System.EventHandler(this.buttonB_Click);
             // 
             // buttonA
             // 
@@ -82,9 +88,10 @@ namespace geography_coursework
             this.buttonA.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.buttonA.Font = new System.Drawing.Font("Comic Sans MS", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonA.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonA.Location = new System.Drawing.Point(12, 215);
+            this.buttonA.Location = new System.Drawing.Point(17, 358);
+            this.buttonA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonA.Name = "buttonA";
-            this.buttonA.Size = new System.Drawing.Size(314, 100);
+            this.buttonA.Size = new System.Drawing.Size(449, 167);
             this.buttonA.TabIndex = 3;
             this.buttonA.Text = "A";
             this.buttonA.UseVisualStyleBackColor = false;
@@ -98,31 +105,38 @@ namespace geography_coursework
             this.questionlabel.Cursor = System.Windows.Forms.Cursors.HSplit;
             this.questionlabel.Font = new System.Drawing.Font("Comic Sans MS", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.questionlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.questionlabel.Location = new System.Drawing.Point(182, 42);
+            this.questionlabel.Location = new System.Drawing.Point(260, 70);
+            this.questionlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.questionlabel.Name = "questionlabel";
-            this.questionlabel.Size = new System.Drawing.Size(431, 137);
+            this.questionlabel.Size = new System.Drawing.Size(645, 203);
             this.questionlabel.TabIndex = 5;
             this.questionlabel.Text = "question";
             this.questionlabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form3
+            // QuizPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::geography_coursework.Properties.Resources.download;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.questionlabel);
             this.Controls.Add(this.buttonA);
             this.Controls.Add(this.buttonB);
             this.Controls.Add(this.buttonC);
             this.Controls.Add(this.buttonD);
             this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "QuizPage";
+            this.Text = "QuizPage";
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

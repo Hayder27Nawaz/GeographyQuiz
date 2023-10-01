@@ -22,7 +22,7 @@ namespace geography_coursework
             string SelectedTopic = listTopics.Text;
             if (SelectedTopic != "")
             {
-                Form3 quizForm = new Form3(SelectedTopic);
+                QuizPage quizForm = new QuizPage(SelectedTopic);
                 quizForm.ShowDialog();
                 this.Close();
             }

@@ -21,7 +21,7 @@ namespace geography_coursework
             InitializeComponent();
             fetchQuestions();
             chosenTopic = topic;
-            question QuestionOne;
+           // question QuestionOne;
             LoadQuestions();
 
             Console.WriteLine("");
@@ -48,37 +48,32 @@ namespace geography_coursework
 
             int numberOfQuestions = quizQuestions.Count;
 
-            var firstQuestion = quizQuestions.First();
-            labelQuestion.Text = firstQuestion.Question;
-            buttonOptionA.Text = firstQuestion.OptionA;
-            buttonOptionB.Text = firstQuestion.OptionB;
+            //var firstQuestion = quizQuestions.First();
+            //labelQuestion.Text = firstQuestion.Question;
+            //buttonOptionA.Text = firstQuestion.OptionA;
+            //buttonOptionB.Text = firstQuestion.OptionB;
         }
     }
 
-    struct question
-        {//get questions from file and add to a list
-            public string Question, Topic, Answer, AnswerA, AnswerB, AnswerC, AnswerD;
-        }
+        
+        //private void button1_Click(object sender, EventArgs e)
+        //{
 
-       
-        private void button1_Click(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void button4_Click(object sender, EventArgs e)
+        //{
 
-        private void button4_Click(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void label1_Click(object sender, EventArgs e)
+        //{
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void buttonB_Click(object sender, EventArgs e)
+        //{
 
-        private void buttonB_Click(object sender, EventArgs e)
-        {
-
-        }
+        //}
     }
-}
+

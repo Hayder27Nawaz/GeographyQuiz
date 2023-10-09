@@ -14,5 +14,12 @@ namespace geography_coursework
         {
             InitializeComponent();
         }
+
+        private void btnLogSignIn_Click(object sender, EventArgs e)
+        {
+            var signInForm = new frmSignIn();
+            signInForm.Show();
+            Hide();
+        }
     }
 }

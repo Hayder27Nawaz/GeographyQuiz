@@ -80,7 +80,7 @@ namespace geography_coursework
             this.buttonB.TabIndex = 2;
             this.buttonB.Text = "B";
             this.buttonB.UseVisualStyleBackColor = false;
-            this.buttonB.Click += new System.EventHandler(this.buttonB_Click);
+            //this.buttonB.Click += new System.EventHandler(this.buttonB_Click);
             // 
             // buttonA
             // 
@@ -95,7 +95,7 @@ namespace geography_coursework
             this.buttonA.TabIndex = 3;
             this.buttonA.Text = "A";
             this.buttonA.UseVisualStyleBackColor = false;
-            this.buttonA.Click += new System.EventHandler(this.button4_Click);
+            //this.buttonA.Click += new System.EventHandler(this.button4_Click);
             // 
             // questionlabel
             // 
@@ -111,7 +111,7 @@ namespace geography_coursework
             this.questionlabel.Size = new System.Drawing.Size(645, 203);
             this.questionlabel.TabIndex = 5;
             this.questionlabel.Text = "question";
-            this.questionlabel.Click += new System.EventHandler(this.label1_Click);
+            //this.questionlabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // QuizPage
             // 

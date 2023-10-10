@@ -38,7 +38,7 @@
             this.btnLogSignIn.Name = "btnLogSignIn";
             this.btnLogSignIn.Size = new System.Drawing.Size(112, 34);
             this.btnLogSignIn.TabIndex = 0;
-            this.btnLogSignIn.Text = "Log/Sign in";
+            this.btnLogSignIn.Text = "Continue";
             this.btnLogSignIn.UseVisualStyleBackColor = true;
             this.btnLogSignIn.Click += new System.EventHandler(this.btnLogSignIn_Click);
             // 

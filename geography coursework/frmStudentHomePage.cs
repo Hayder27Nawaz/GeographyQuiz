@@ -15,5 +15,16 @@ namespace geography_coursework
             InitializeComponent();
         }
 
+        private void QuizStart(object sender, EventArgs e)
+        {
+            frmCategorySelect newForm = new frmCategorySelect();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

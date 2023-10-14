@@ -42,7 +42,7 @@
             this.btnStartRevising.TabIndex = 0;
             this.btnStartRevising.Text = "Start Revising";
             this.btnStartRevising.UseVisualStyleBackColor = true;
-            this.btnStartRevising.Click += new System.EventHandler(this.QuizStart);
+            this.btnStartRevising.Click += new System.EventHandler(this.btnStartRevising_Click);
             // 
             // btnLastRevisionTest
             // 
@@ -52,7 +52,6 @@
             this.btnLastRevisionTest.TabIndex = 1;
             this.btnLastRevisionTest.Text = "Continue Last Revision Session";
             this.btnLastRevisionTest.UseVisualStyleBackColor = true;
-            this.btnLastRevisionTest.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnPreviousTestResults
             // 
@@ -71,6 +70,7 @@
             this.btnSettings.TabIndex = 3;
             this.btnSettings.Text = "Settings";
             this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // frmStudentHomePage
             // 

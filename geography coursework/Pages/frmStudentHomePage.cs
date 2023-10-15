@@ -27,5 +27,10 @@ namespace geography_coursework
             newForm.Show();
             this.Hide();
         }
+
+        private void btnPreviousTestResults_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

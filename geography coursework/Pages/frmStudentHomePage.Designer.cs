@@ -61,6 +61,7 @@
             this.btnPreviousTestResults.TabIndex = 2;
             this.btnPreviousTestResults.Text = "Previous Test Scores";
             this.btnPreviousTestResults.UseVisualStyleBackColor = true;
+            this.btnPreviousTestResults.Click += new System.EventHandler(this.btnPreviousTestResults_Click);
             // 
             // btnSettings
             // 

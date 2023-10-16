@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace geography_coursework
 {
-    public partial class frmSettingsPage : Form
+    public partial class frmPreviousQuizResults : Form
     {
-        public frmSettingsPage()
+        public frmPreviousQuizResults()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace geography_coursework
 {
-    partial class frmSettingsPage
+    partial class frmPreviousQuizResults
     {
         /// <summary>
         /// Required designer variable.
@@ -33,22 +33,21 @@
             // 
             // btnReturnToHomePage
             // 
-            btnReturnToHomePage.Location = new System.Drawing.Point(259, 12);
+            btnReturnToHomePage.Location = new System.Drawing.Point(258, 12);
             btnReturnToHomePage.Name = "btnReturnToHomePage";
             btnReturnToHomePage.Size = new System.Drawing.Size(254, 45);
-            btnReturnToHomePage.TabIndex = 9;
+            btnReturnToHomePage.TabIndex = 8;
             btnReturnToHomePage.Text = "back to student home page";
             btnReturnToHomePage.UseVisualStyleBackColor = true;
             btnReturnToHomePage.Click += btnReturnToHomePage_Click;
             // 
-            // frmSettingsPage
+            // frmPreviousQuizResults
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
             Controls.Add(btnReturnToHomePage);
-            Name = "frmSettingsPage";
-            Text = "Settings Page";
+            Name = "frmPreviousQuizResults";
             ResumeLayout(false);
         }
 

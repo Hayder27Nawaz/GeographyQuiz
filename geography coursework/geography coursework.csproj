@@ -24,7 +24,7 @@
     <Compile Update="Pages\frmQuizPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Pages\frmQuizResults.cs">
+    <Compile Update="Pages\frmPreviousQuizResults.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Pages\frmQuizSetUp.cs">

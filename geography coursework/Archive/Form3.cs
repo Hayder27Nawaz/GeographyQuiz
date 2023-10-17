@@ -21,7 +21,7 @@ namespace geography_coursework
             InitializeComponent();
             fetchQuestions();
             chosenTopic = topic;
-           // question QuestionOne;
+            // question QuestionOne;
             LoadQuestions();
 
             Console.WriteLine("");
@@ -53,27 +53,32 @@ namespace geography_coursework
             //buttonOptionA.Text = firstQuestion.OptionA;
             //buttonOptionB.Text = firstQuestion.OptionB;
         }
+
+        private void questionlabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
-        
-        //private void button1_Click(object sender, EventArgs e)
-        //{
 
-        //}
+    //private void button1_Click(object sender, EventArgs e)
+    //{
 
-        //private void button4_Click(object sender, EventArgs e)
-        //{
+    //}
 
-        //}
+    //private void button4_Click(object sender, EventArgs e)
+    //{
 
-        //private void label1_Click(object sender, EventArgs e)
-        //{
+    //}
 
-        //}
+    //private void label1_Click(object sender, EventArgs e)
+    //{
 
-        //private void buttonB_Click(object sender, EventArgs e)
-        //{
+    //}
 
-        //}
-    }
+    //private void buttonB_Click(object sender, EventArgs e)
+    //{
+
+    //}
+}
 

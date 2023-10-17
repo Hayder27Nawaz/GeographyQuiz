@@ -83,6 +83,36 @@ namespace geography_coursework.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Geography_homepage_image {
+            get {
+                object obj = ResourceManager.GetObject("Geography homepage image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap geoquiz_homepage_2 {
+            get {
+                object obj = ResourceManager.GetObject("geoquiz homepage 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap geoquiz_homepage_21 {
+            get {
+                object obj = ResourceManager.GetObject("geoquiz homepage 21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap savannah_transition {
             get {
                 object obj = ResourceManager.GetObject("savannah-transition", resourceCulture);

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using geography_coursework.Models;
+using geography_coursework.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +17,9 @@ namespace geography_coursework
         public frmQuizSetUp(string categoryName)
         {
             InitializeComponent();
-            _categoryName = categoryName;           
+            _categoryName = categoryName;
+            
+            List<QuizQuestion> quizQuestions = new FileService().GetQuestions();
         }
 
     }

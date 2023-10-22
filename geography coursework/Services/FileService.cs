@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace geography_coursework.Services
@@ -10,24 +11,23 @@ namespace geography_coursework.Services
     {
         public List<QuizQuestion> GetQuestions() 
         {
-            //  Load file
-            string filePath = "QuizQuestions.cs";
-            List<string[]> csvData = LoadCSV(filePath);
+            List<QuizQuestion> quizQuestions = new List<QuizQuestion>();
 
-            foreach (string[] row in csvData)
+            //  Load file
+            string filePath = "quiz_questions/geography_questions.csv";
+            List<string> csvData = LoadCSV(filePath);
+
+            foreach (string row in csvData.Skip(1))
             {
-                foreach (string value in row)
-                {
-                    Console.Write(value + "\t");
-                }
-                Console.WriteLine();
+                quizQuestions.Add(QuizQuestion.From(row));
             }
-            return new List<QuizQuestion>();
+
+            return quizQuestions;
         }
 
-        public static List<string[]> LoadCSV(string filePath)
+        private static List<string> LoadCSV(string filePath)
         {
-            List<string[]> data = new List<string[]>();
+            List<string> data = new List<string>();
 
             try
             {
@@ -36,8 +36,7 @@ namespace geography_coursework.Services
                     while (!reader.EndOfStream)
                     {
                         string line = reader.ReadLine();
-                        string[] values = line.Split(',');
-                        data.Add(values);
+                        data.Add(line);
                     }
                 }
             }

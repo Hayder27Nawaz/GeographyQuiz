@@ -15,9 +15,9 @@ namespace geography_coursework.Models
         public int DifficultyLevel { get; set; }
 
         public static QuizQuestion
-    From(string cvsLine)
+    From(string csvLine)
         {
-            var columns = cvsLine.Split(",");
+            var columns = csvLine.Split(",");
 
             return new QuizQuestion
             {

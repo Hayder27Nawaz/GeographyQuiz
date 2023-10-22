@@ -65,7 +65,6 @@
             btnReturnToHomePage.TabIndex = 10;
             btnReturnToHomePage.Text = "back to student home page";
             btnReturnToHomePage.UseVisualStyleBackColor = true;
-        
             // 
             // btnStartQuiz
             // 
@@ -75,7 +74,7 @@
             btnStartQuiz.TabIndex = 11;
             btnStartQuiz.Text = "Start";
             btnStartQuiz.UseVisualStyleBackColor = true;
-           
+            btnStartQuiz.Click += btnStartQuiz_Click;
             // 
             // frmCategorySelect
             // 

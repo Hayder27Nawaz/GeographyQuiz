@@ -10,9 +10,12 @@ namespace geography_coursework
 {
     public partial class frmQuizSetUp : Form
     {
-        public frmQuizSetUp()
+        private string _categoryName;
+
+        public frmQuizSetUp(string categoryName)
         {
             InitializeComponent();
+            _categoryName = categoryName;           
         }
 
     }

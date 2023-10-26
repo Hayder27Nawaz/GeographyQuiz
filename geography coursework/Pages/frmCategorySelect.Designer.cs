@@ -68,11 +68,11 @@
             // 
             // btnStartQuiz
             // 
-            btnStartQuiz.Location = new System.Drawing.Point(326, 383);
+            btnStartQuiz.Location = new System.Drawing.Point(331, 387);
             btnStartQuiz.Name = "btnStartQuiz";
             btnStartQuiz.Size = new System.Drawing.Size(141, 40);
             btnStartQuiz.TabIndex = 11;
-            btnStartQuiz.Text = "Start";
+            btnStartQuiz.Text = "Select Settings";
             btnStartQuiz.UseVisualStyleBackColor = true;
             btnStartQuiz.Click += btnStartQuiz_Click;
             // 

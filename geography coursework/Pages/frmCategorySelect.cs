@@ -26,7 +26,7 @@ namespace geography_coursework
 
         private void listTopics_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _categoryName = listTopics.SelectedItem.ToString();      
+            _categoryName = listTopics.SelectedItem.ToString();
         }
 
         private void btnReturnToHomePage_Click(object sender, EventArgs e)

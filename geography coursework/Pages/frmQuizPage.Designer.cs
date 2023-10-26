@@ -35,9 +35,10 @@
             btnOptionD = new System.Windows.Forms.Button();
             btnNextQuestion = new System.Windows.Forms.Button();
             lblQuizQuestions = new System.Windows.Forms.Label();
-            timer1 = new System.Windows.Forms.Timer(components);
             btnPreviousQuestion = new System.Windows.Forms.Button();
             btnReturnToHomePage = new System.Windows.Forms.Button();
+            lblScreen = new System.Windows.Forms.Label();
+            countdownTimer = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // btnOptionA
@@ -106,7 +107,7 @@
             // 
             // btnReturnToHomePage
             // 
-            btnReturnToHomePage.Location = new System.Drawing.Point(272, 12);
+            btnReturnToHomePage.Location = new System.Drawing.Point(14, 12);
             btnReturnToHomePage.Name = "btnReturnToHomePage";
             btnReturnToHomePage.Size = new System.Drawing.Size(254, 45);
             btnReturnToHomePage.TabIndex = 7;
@@ -114,11 +115,24 @@
             btnReturnToHomePage.UseVisualStyleBackColor = true;
             btnReturnToHomePage.Click += btnReturnToHomePage_Click;
             // 
+            // lblScreen
+            // 
+            lblScreen.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblScreen.Location = new System.Drawing.Point(628, 25);
+            lblScreen.Name = "lblScreen";
+            lblScreen.Size = new System.Drawing.Size(100, 43);
+            lblScreen.TabIndex = 8;
+            lblScreen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // countdownTimer
+            // 
+            // 
             // frmQuizPage
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(lblScreen);
             Controls.Add(btnReturnToHomePage);
             Controls.Add(btnPreviousQuestion);
             Controls.Add(lblQuizQuestions);
@@ -141,8 +155,9 @@
         private System.Windows.Forms.Button btnOptionD;
         private System.Windows.Forms.Button btnNextQuestion;
         private System.Windows.Forms.Label lblQuizQuestions;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button btnPreviousQuestion;
         private System.Windows.Forms.Button btnReturnToHomePage;
+        private System.Windows.Forms.Label lblScreen;
+        private System.Windows.Forms.Timer countdownTimer;
     }
 }

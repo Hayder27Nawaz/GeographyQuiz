@@ -86,7 +86,7 @@
             // 
             // btnStartQuiz
             // 
-            btnStartQuiz.Location = new System.Drawing.Point(344, 404);
+            btnStartQuiz.Location = new System.Drawing.Point(344, 382);
             btnStartQuiz.Name = "btnStartQuiz";
             btnStartQuiz.Size = new System.Drawing.Size(112, 34);
             btnStartQuiz.TabIndex = 8;

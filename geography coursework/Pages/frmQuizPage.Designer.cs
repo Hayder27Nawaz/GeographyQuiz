@@ -34,7 +34,7 @@
             btnOptionC = new System.Windows.Forms.Button();
             btnOptionD = new System.Windows.Forms.Button();
             btnNextQuestion = new System.Windows.Forms.Button();
-            lblQuizQuestions = new System.Windows.Forms.Label();
+            btnQuizQuestions = new System.Windows.Forms.Button();
             btnPreviousQuestion = new System.Windows.Forms.Button();
             btnReturnToHomePage = new System.Windows.Forms.Button();
             lblScreen = new System.Windows.Forms.Label();
@@ -49,6 +49,7 @@
             btnOptionA.TabIndex = 0;
             btnOptionA.Text = "OptionA";
             btnOptionA.UseVisualStyleBackColor = true;
+            btnOptionA.Click += btnOptionA_Click;
             // 
             // btnOptionB
             // 
@@ -86,15 +87,15 @@
             btnNextQuestion.Text = "Next Question";
             btnNextQuestion.UseVisualStyleBackColor = true;
             // 
-            // lblQuizQuestions
+            // btnQuizQuestions
             // 
-            lblQuizQuestions.AutoSize = true;
-            lblQuizQuestions.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            lblQuizQuestions.Location = new System.Drawing.Point(333, 93);
-            lblQuizQuestions.Name = "lblQuizQuestions";
-            lblQuizQuestions.Size = new System.Drawing.Size(139, 41);
-            lblQuizQuestions.TabIndex = 5;
-            lblQuizQuestions.Text = "Question";
+            btnQuizQuestions.AutoSize = true;
+            btnQuizQuestions.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnQuizQuestions.Location = new System.Drawing.Point(339, 101);
+            btnQuizQuestions.Name = "btnQuizQuestions";
+            btnQuizQuestions.Size = new System.Drawing.Size(112, 34);
+            btnQuizQuestions.TabIndex = 9;
+            btnQuizQuestions.UseVisualStyleBackColor = true;
             // 
             // btnPreviousQuestion
             // 
@@ -124,9 +125,6 @@
             lblScreen.TabIndex = 8;
             lblScreen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // countdownTimer
-            // 
-            // 
             // frmQuizPage
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -135,7 +133,7 @@
             Controls.Add(lblScreen);
             Controls.Add(btnReturnToHomePage);
             Controls.Add(btnPreviousQuestion);
-            Controls.Add(lblQuizQuestions);
+            Controls.Add(btnQuizQuestions);
             Controls.Add(btnNextQuestion);
             Controls.Add(btnOptionD);
             Controls.Add(btnOptionC);
@@ -154,10 +152,10 @@
         private System.Windows.Forms.Button btnOptionC;
         private System.Windows.Forms.Button btnOptionD;
         private System.Windows.Forms.Button btnNextQuestion;
-        private System.Windows.Forms.Label lblQuizQuestions;
         private System.Windows.Forms.Button btnPreviousQuestion;
         private System.Windows.Forms.Button btnReturnToHomePage;
         private System.Windows.Forms.Label lblScreen;
         private System.Windows.Forms.Timer countdownTimer;
+        private System.Windows.Forms.Button btnQuizQuestions;
     }
 }

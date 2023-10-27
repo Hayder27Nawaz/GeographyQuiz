@@ -25,9 +25,9 @@ namespace geography_coursework
 
         private void btnStartQuiz_Click(object sender, EventArgs e)
         {
-            //frmQuizPage newForm = new frmQuizPage();
-            //newForm.Show();
-            //this.Hide();
+            frmQuizPage newForm = new frmQuizPage();
+            newForm.Show();
+            this.Hide();
             seconds = 10;
             countdownTimer.Start();
         }

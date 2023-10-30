@@ -7,7 +7,7 @@ using System.Text;
 
 namespace geography_coursework.Services
 {
-    public class FileService
+    public class FileManager
     {
         public List<QuizQuestion> GetQuestions() 
         {

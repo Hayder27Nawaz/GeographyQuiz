@@ -20,7 +20,7 @@ namespace geography_coursework
             InitializeComponent();
             _categoryName = categoryName;
 
-            List<QuizQuestion> quizQuestions = new FileService().GetQuestions();
+            List<QuizQuestion> quizQuestions = new FileManager().GetQuestions();
         }
 
         private void btnStartQuiz_Click(object sender, EventArgs e)

@@ -14,8 +14,7 @@ namespace geography_coursework.Models
         public string Answer { get; set; }
         public int DifficultyLevel { get; set; }
 
-        public static QuizQuestion
-    From(string csvLine)
+        public static QuizQuestion From(string csvLine)
         {
             var columns = csvLine.Split(",");
 

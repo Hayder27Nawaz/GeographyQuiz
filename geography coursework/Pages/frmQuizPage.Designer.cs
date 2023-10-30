@@ -33,12 +33,11 @@
             btnOptionB = new System.Windows.Forms.Button();
             btnOptionC = new System.Windows.Forms.Button();
             btnOptionD = new System.Windows.Forms.Button();
-            btnNextQuestion = new System.Windows.Forms.Button();
-            btnQuizQuestions = new System.Windows.Forms.Button();
-            btnPreviousQuestion = new System.Windows.Forms.Button();
             btnReturnToHomePage = new System.Windows.Forms.Button();
-            lblScreen = new System.Windows.Forms.Label();
+            lblTimer = new System.Windows.Forms.Label();
             countdownTimer = new System.Windows.Forms.Timer(components);
+            lblQuestion = new System.Windows.Forms.Label();
+            btnSubmit = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // btnOptionA
@@ -59,6 +58,7 @@
             btnOptionB.TabIndex = 1;
             btnOptionB.Text = "OptionB";
             btnOptionB.UseVisualStyleBackColor = true;
+            btnOptionB.Click += btnOptionB_Click;
             // 
             // btnOptionC
             // 
@@ -68,6 +68,7 @@
             btnOptionC.TabIndex = 2;
             btnOptionC.Text = "OptionC";
             btnOptionC.UseVisualStyleBackColor = true;
+            btnOptionC.Click += btnOptionC_Click;
             // 
             // btnOptionD
             // 
@@ -77,34 +78,7 @@
             btnOptionD.TabIndex = 3;
             btnOptionD.Text = "OptionD";
             btnOptionD.UseVisualStyleBackColor = true;
-            // 
-            // btnNextQuestion
-            // 
-            btnNextQuestion.Location = new System.Drawing.Point(272, 312);
-            btnNextQuestion.Name = "btnNextQuestion";
-            btnNextQuestion.Size = new System.Drawing.Size(254, 77);
-            btnNextQuestion.TabIndex = 4;
-            btnNextQuestion.Text = "Next Question";
-            btnNextQuestion.UseVisualStyleBackColor = true;
-            // 
-            // btnQuizQuestions
-            // 
-            btnQuizQuestions.AutoSize = true;
-            btnQuizQuestions.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            btnQuizQuestions.Location = new System.Drawing.Point(339, 101);
-            btnQuizQuestions.Name = "btnQuizQuestions";
-            btnQuizQuestions.Size = new System.Drawing.Size(112, 34);
-            btnQuizQuestions.TabIndex = 9;
-            btnQuizQuestions.UseVisualStyleBackColor = true;
-            // 
-            // btnPreviousQuestion
-            // 
-            btnPreviousQuestion.Location = new System.Drawing.Point(272, 229);
-            btnPreviousQuestion.Name = "btnPreviousQuestion";
-            btnPreviousQuestion.Size = new System.Drawing.Size(254, 77);
-            btnPreviousQuestion.TabIndex = 6;
-            btnPreviousQuestion.Text = "Previous Question";
-            btnPreviousQuestion.UseVisualStyleBackColor = true;
+            btnOptionD.Click += btnOptionD_Click;
             // 
             // btnReturnToHomePage
             // 
@@ -116,25 +90,45 @@
             btnReturnToHomePage.UseVisualStyleBackColor = true;
             btnReturnToHomePage.Click += btnReturnToHomePage_Click;
             // 
-            // lblScreen
+            // lblTimer
             // 
-            lblScreen.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            lblScreen.Location = new System.Drawing.Point(628, 25);
-            lblScreen.Name = "lblScreen";
-            lblScreen.Size = new System.Drawing.Size(100, 43);
-            lblScreen.TabIndex = 8;
-            lblScreen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblTimer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            lblTimer.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblTimer.Location = new System.Drawing.Point(688, 12);
+            lblTimer.Name = "lblTimer";
+            lblTimer.Size = new System.Drawing.Size(100, 45);
+            lblTimer.TabIndex = 8;
+            lblTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblQuestion
+            // 
+            lblQuestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            lblQuestion.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblQuestion.Location = new System.Drawing.Point(353, 89);
+            lblQuestion.Name = "lblQuestion";
+            lblQuestion.Size = new System.Drawing.Size(100, 45);
+            lblQuestion.TabIndex = 9;
+            lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSubmit
+            // 
+            btnSubmit.Location = new System.Drawing.Point(332, 281);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new System.Drawing.Size(137, 51);
+            btnSubmit.TabIndex = 10;
+            btnSubmit.Text = "Submit";
+            btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.Click += btnSubmit_Click;
             // 
             // frmQuizPage
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
-            Controls.Add(lblScreen);
+            Controls.Add(btnSubmit);
+            Controls.Add(lblQuestion);
+            Controls.Add(lblTimer);
             Controls.Add(btnReturnToHomePage);
-            Controls.Add(btnPreviousQuestion);
-            Controls.Add(btnQuizQuestions);
-            Controls.Add(btnNextQuestion);
             Controls.Add(btnOptionD);
             Controls.Add(btnOptionC);
             Controls.Add(btnOptionB);
@@ -142,7 +136,6 @@
             Name = "frmQuizPage";
             Text = "Quiz Page";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -154,8 +147,10 @@
         private System.Windows.Forms.Button btnNextQuestion;
         private System.Windows.Forms.Button btnPreviousQuestion;
         private System.Windows.Forms.Button btnReturnToHomePage;
-        private System.Windows.Forms.Label lblScreen;
+        private System.Windows.Forms.Label lblTimer;
         private System.Windows.Forms.Timer countdownTimer;
+        private System.Windows.Forms.Label lblQuestion;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnQuizQuestions;
     }
 }

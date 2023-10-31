@@ -34,7 +34,7 @@ namespace geography_coursework
 
         private void countdownTimer_Tick(object sender, EventArgs e)
         {
-            lblScreen.Text = seconds--.ToString();
+            lblTimerBox.Text = seconds--.ToString();
             if (seconds < 0)
                 countdownTimer.Stop();
         }

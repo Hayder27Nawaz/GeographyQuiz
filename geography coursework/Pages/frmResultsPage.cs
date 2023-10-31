@@ -14,5 +14,12 @@ namespace geography_coursework.Pages
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmStudentHomePage newForm = new frmStudentHomePage();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }

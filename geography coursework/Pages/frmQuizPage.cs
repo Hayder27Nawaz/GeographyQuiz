@@ -1,5 +1,6 @@
 ﻿using geography_coursework.Models;
 using geography_coursework.Pages;
+using geography_coursework.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -89,5 +90,6 @@ namespace geography_coursework
             SetQuestion(question);
             UpdateScore();
             UpdateTracker();
+        }
     }
 }

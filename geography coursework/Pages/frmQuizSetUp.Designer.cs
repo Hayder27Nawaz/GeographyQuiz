@@ -36,7 +36,10 @@
             btn45questions = new System.Windows.Forms.Button();
             btnStartQuiz = new System.Windows.Forms.Button();
             countdownTimer = new System.Windows.Forms.Timer(components);
-            lblScreen = new System.Windows.Forms.Label();
+            lblTimerBox = new System.Windows.Forms.Label();
+            btn10seconds = new System.Windows.Forms.Button();
+            btn20seconds = new System.Windows.Forms.Button();
+            btn30seconds = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // lblTimePerQuestion
@@ -99,21 +102,51 @@
             countdownTimer.Interval = 1000;
             countdownTimer.Tick += countdownTimer_Tick;
             // 
-            // lblScreen
+            // lblTimerBox
             // 
-            lblScreen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            lblScreen.Location = new System.Drawing.Point(344, 108);
-            lblScreen.Name = "lblScreen";
-            lblScreen.Size = new System.Drawing.Size(112, 38);
-            lblScreen.TabIndex = 9;
-            lblScreen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblTimerBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            lblTimerBox.Location = new System.Drawing.Point(404, 35);
+            lblTimerBox.Name = "lblTimerBox";
+            lblTimerBox.Size = new System.Drawing.Size(125, 25);
+            lblTimerBox.TabIndex = 9;
+            lblTimerBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn10seconds
+            // 
+            btn10seconds.Location = new System.Drawing.Point(21, 76);
+            btn10seconds.Name = "btn10seconds";
+            btn10seconds.Size = new System.Drawing.Size(152, 103);
+            btn10seconds.TabIndex = 10;
+            btn10seconds.Text = "10 seconds";
+            btn10seconds.UseVisualStyleBackColor = true;
+            // 
+            // btn20seconds
+            // 
+            btn20seconds.Location = new System.Drawing.Point(322, 76);
+            btn20seconds.Name = "btn20seconds";
+            btn20seconds.Size = new System.Drawing.Size(152, 103);
+            btn20seconds.TabIndex = 11;
+            btn20seconds.Text = "20 seconds";
+            btn20seconds.UseVisualStyleBackColor = true;
+            // 
+            // btn30seconds
+            // 
+            btn30seconds.Location = new System.Drawing.Point(636, 76);
+            btn30seconds.Name = "btn30seconds";
+            btn30seconds.Size = new System.Drawing.Size(152, 103);
+            btn30seconds.TabIndex = 12;
+            btn30seconds.Text = "30 seconds";
+            btn30seconds.UseVisualStyleBackColor = true;
             // 
             // frmQuizSetUp
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
-            Controls.Add(lblScreen);
+            Controls.Add(btn30seconds);
+            Controls.Add(btn20seconds);
+            Controls.Add(btn10seconds);
+            Controls.Add(lblTimerBox);
             Controls.Add(btnStartQuiz);
             Controls.Add(btn45questions);
             Controls.Add(btn30questions);
@@ -135,6 +168,9 @@
         private System.Windows.Forms.Button btn45questions;
         private System.Windows.Forms.Button btnStartQuiz;
         private System.Windows.Forms.Timer countdownTimer;
-        private System.Windows.Forms.Label lblScreen;
+        private System.Windows.Forms.Label lblTimerBox;
+        private System.Windows.Forms.Button btn10seconds;
+        private System.Windows.Forms.Button btn20seconds;
+        private System.Windows.Forms.Button btn30seconds;
     }
 }

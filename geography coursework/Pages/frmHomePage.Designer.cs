@@ -31,7 +31,7 @@
             btnStartRevising = new System.Windows.Forms.Button();
             btnLastRevisionTest = new System.Windows.Forms.Button();
             btnPreviousQuizResults = new System.Windows.Forms.Button();
-            btnSettings = new System.Windows.Forms.Button();
+            btnSettings = new System.Windows.Forms.Button(); 
             lblCategoryChoice = new System.Windows.Forms.Label();
             SuspendLayout();
             // 

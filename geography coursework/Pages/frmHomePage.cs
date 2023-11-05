@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace geography_coursework
 {
-    public partial class frmStudentHomePage : Form
+    public partial class frmHomePage : Form
     {
-        public frmStudentHomePage()
+        public frmHomePage()
         {
             InitializeComponent();
         }
@@ -25,14 +25,14 @@ namespace geography_coursework
         private void btnStartRevising_Click(object sender, EventArgs e)
         {
 
-            frmCategorySelect newForm = new frmCategorySelect();
+            frmCategoryPage newForm = new frmCategoryPage();
             newForm.Show();
             this.Hide();
         }
 
         private void btnPreviousTestResults_Click(object sender, EventArgs e)
         {
-            frmPreviousQuizResults newForm = new frmPreviousQuizResults();
+            frmHighscorePage newForm = new frmHighscorePage();
             newForm.Show();
             this.Hide();
         }

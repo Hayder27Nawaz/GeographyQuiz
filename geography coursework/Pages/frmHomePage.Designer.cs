@@ -1,6 +1,6 @@
 ﻿namespace geography_coursework
 {
-    partial class frmStudentHomePage
+    partial class frmHomePage
     {
         /// <summary>
         /// Required designer variable.

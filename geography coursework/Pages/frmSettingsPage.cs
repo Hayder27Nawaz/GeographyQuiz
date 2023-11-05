@@ -8,16 +8,16 @@ using System.Windows.Forms;
 
 namespace geography_coursework
 {
-    public partial class frmSettingsPage : Form
+    public partial class frmCustomSettingsPage : Form
     {
-        public frmSettingsPage()
+        public frmCustomSettingsPage()
         {
             InitializeComponent();
         }
 
         private void btnReturnToHomePage_Click(object sender, EventArgs e)
         {
-            frmStudentHomePage newForm = new frmStudentHomePage();
+            frmHomePage newForm = new frmHomePage();
             newForm.Show();
             this.Hide();
         }

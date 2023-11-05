@@ -13,6 +13,7 @@ namespace geography_coursework.Models
         public int TotalNumberOfQuestions { get; set; }
         public int CurrentQuestion { get; set; }
         public string AnswerSelected { get; set; }
+
         public static Quiz From(List<QuizQuestion> questions)
         {
             var queue = new Stack<QuizQuestion>();
@@ -20,6 +21,7 @@ namespace geography_coursework.Models
             {
                 queue.Push(question);
             }
+
             return new Quiz
             {
                 Questions = questions.
@@ -35,7 +37,9 @@ namespace geography_coursework.Models
             //return null if no more questions are found
             if (numberOfQuestions == 0)
                 return null;
+
             CurrentQuestion += 1;
+
             return _questionQueue.Pop();
         }
     }

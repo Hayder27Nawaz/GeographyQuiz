@@ -1,6 +1,6 @@
 ﻿namespace geography_coursework
 {
-    partial class frmPreviousQuizResults
+    partial class frmHighscorePage
     {
         /// <summary>
         /// Required designer variable.

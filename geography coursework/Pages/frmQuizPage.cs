@@ -51,7 +51,7 @@ namespace geography_coursework
         }
         private void btnReturnToHomePage_Click(object sender, EventArgs e)
         {
-            frmStudentHomePage newForm = new frmStudentHomePage();
+            frmHomePage newForm = new frmHomePage();
             newForm.Show();
             this.Hide();
         }

@@ -1,7 +1,13 @@
-﻿namespace geography_coursework.Pages
+﻿using System.Windows.Forms;
+
+namespace geography_coursework.Pages
 {
-    partial class frmResultsPage
+    public partial class frmResultsPage : Form
     {
+        public frmResultsPage()
+        {
+            InitializeComponent();
+        }
         /// <summary>
         /// Required designer variable.
         /// </summary>

@@ -13,11 +13,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace geography_coursework
 {
-    public partial class frmCategorySelect : Form
+    public partial class frmCategoryPage : Form
     {
         private string _categoryName;
 
-        public frmCategorySelect()
+        public frmCategoryPage()
         {
             InitializeComponent();
             _categoryName = "3.1.1 Section A: The challenge of natural hazards";
@@ -31,7 +31,7 @@ namespace geography_coursework
 
         private void btnReturnToHomePage_Click(object sender, EventArgs e)
         {
-            frmStudentHomePage newForm = new frmStudentHomePage();
+            frmHomePage newForm = new frmHomePage();
             newForm.Show();
             this.Hide();
         }

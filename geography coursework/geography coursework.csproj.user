@@ -34,7 +34,7 @@
     <Compile Update="Pages\frmResultsPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Pages\frmStudentHomePage.cs">
+    <Compile Update="Pages\frmHomePage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Archive\frmToDoHW.cs">

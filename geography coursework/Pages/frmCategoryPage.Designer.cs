@@ -1,6 +1,6 @@
 ﻿namespace geography_coursework
 {
-    partial class frmCategorySelect
+    partial class frmCategoryPage
     {
         /// <summary>
         /// Required designer variable.

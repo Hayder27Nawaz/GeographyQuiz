@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace geography_coursework.Models
+﻿namespace geography_coursework.Models
 {
     public class QuizQuestion
     {
+        public string Category { get; set; }
         public string Question { get; set; }
         public string OptionA { get; set; }
         public string OptionB { get; set; }
@@ -20,15 +17,15 @@ namespace geography_coursework.Models
 
             return new QuizQuestion
             {
-                Question = columns[0],
-                OptionA = columns[1],
-                OptionB = columns[2],
-                OptionC = columns[3],
-                OptionD = columns[4],
-                Answer = columns[5],
-                DifficultyLevel = int.Parse(columns[6])
+                Category = columns[0],
+                Question = columns[1],
+                OptionA = columns[2],
+                OptionB = columns[3],
+                OptionC = columns[4],
+                OptionD = columns[5],
+                Answer = columns[6],
+                DifficultyLevel = int.Parse(columns[7])
             };
         }
-
     }
 }

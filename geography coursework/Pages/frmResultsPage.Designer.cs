@@ -2,12 +2,8 @@
 
 namespace geography_coursework.Pages
 {
-    public partial class frmResultsPage : Form
+    partial class frmResultsPage
     {
-        public frmResultsPage()
-        {
-            InitializeComponent();
-        }
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -34,91 +30,115 @@ namespace geography_coursework.Pages
         /// </summary>
         private void InitializeComponent()
         {
-            lblScore = new System.Windows.Forms.Label();
-            btnReturnToHomePage = new System.Windows.Forms.Button();
-            tblCategoryStrengths = new System.Windows.Forms.DataGridView();
-            tblCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            tblScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            lblRevisionSuggestion = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)tblCategoryStrengths).BeginInit();
+            lblScore = new Label();
+            dgvResults = new DataGridView();
+            Category = new DataGridViewTextBoxColumn();
+            PercentageScore = new DataGridViewTextBoxColumn();
+            btnStartNewQuiz = new Button();
+            btnReviewAnswers = new Button();
+            lblErrorMessage = new Label();
+            ((System.ComponentModel.ISupportInitialize)dgvResults).BeginInit();
             SuspendLayout();
             // 
             // lblScore
             // 
-            lblScore.Location = new System.Drawing.Point(318, 84);
+            lblScore.AutoSize = true;
+            lblScore.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lblScore.Location = new System.Drawing.Point(523, 34);
+            lblScore.Margin = new Padding(4, 0, 4, 0);
             lblScore.Name = "lblScore";
-            lblScore.Size = new System.Drawing.Size(65, 25);
+            lblScore.Size = new System.Drawing.Size(95, 41);
             lblScore.TabIndex = 0;
-            lblScore.Text = "Score: ";
-            lblScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblScore.Text = "Score";
             // 
-            // btnReturnToHomePage
+            // dgvResults
             // 
-            btnReturnToHomePage.Location = new System.Drawing.Point(277, 12);
-            btnReturnToHomePage.Name = "btnReturnToHomePage";
-            btnReturnToHomePage.Size = new System.Drawing.Size(254, 45);
-            btnReturnToHomePage.TabIndex = 1;
-            btnReturnToHomePage.Text = "back to student home page";
-            btnReturnToHomePage.UseVisualStyleBackColor = true;
-            btnReturnToHomePage.Click += button1_Click;
+            dgvResults.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvResults.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvResults.Columns.AddRange(new DataGridViewColumn[] { Category, PercentageScore });
+            dgvResults.Location = new System.Drawing.Point(17, 112);
+            dgvResults.Margin = new Padding(4, 5, 4, 5);
+            dgvResults.Name = "dgvResults";
+            dgvResults.RowHeadersWidth = 62;
+            dgvResults.RowTemplate.Height = 25;
+            dgvResults.Size = new System.Drawing.Size(1109, 303);
+            dgvResults.TabIndex = 1;
             // 
-            // tblCategoryStrengths
+            // Category
             // 
-            tblCategoryStrengths.AllowUserToOrderColumns = true;
-            tblCategoryStrengths.ColumnHeadersHeight = 34;
-            tblCategoryStrengths.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { tblCategory, tblScore });
-            tblCategoryStrengths.Location = new System.Drawing.Point(59, 145);
-            tblCategoryStrengths.Name = "tblCategoryStrengths";
-            tblCategoryStrengths.RowHeadersWidth = 62;
-            tblCategoryStrengths.RowTemplate.Height = 33;
-            tblCategoryStrengths.Size = new System.Drawing.Size(681, 201);
-            tblCategoryStrengths.TabIndex = 2;
+            Category.HeaderText = "Category";
+            Category.MinimumWidth = 8;
+            Category.Name = "Category";
+            Category.ReadOnly = true;
             // 
-            // tblCategory
+            // PercentageScore
             // 
-            tblCategory.HeaderText = "Category";
-            tblCategory.MinimumWidth = 8;
-            tblCategory.Name = "tblCategory";
-            tblCategory.Width = 150;
+            PercentageScore.HeaderText = "Score";
+            PercentageScore.MinimumWidth = 8;
+            PercentageScore.Name = "PercentageScore";
+            PercentageScore.ReadOnly = true;
             // 
-            // tblScore
+            // btnStartNewQuiz
             // 
-            tblScore.HeaderText = "Score";
-            tblScore.MinimumWidth = 8;
-            tblScore.Name = "tblScore";
-            tblScore.Width = 150;
+            btnStartNewQuiz.Location = new System.Drawing.Point(858, 490);
+            btnStartNewQuiz.Margin = new Padding(4, 5, 4, 5);
+            btnStartNewQuiz.Name = "btnStartNewQuiz";
+            btnStartNewQuiz.Size = new System.Drawing.Size(268, 190);
+            btnStartNewQuiz.TabIndex = 2;
+            btnStartNewQuiz.Text = "New";
+            btnStartNewQuiz.UseVisualStyleBackColor = true;
+            btnStartNewQuiz.Click += btnStartNewQuiz_Click;
             // 
-            // lblRevisionSuggestion
+            // btnReviewAnswers
             // 
-            lblRevisionSuggestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            lblRevisionSuggestion.Location = new System.Drawing.Point(318, 384);
-            lblRevisionSuggestion.Name = "lblRevisionSuggestion";
-            lblRevisionSuggestion.Size = new System.Drawing.Size(65, 25);
-            lblRevisionSuggestion.TabIndex = 3;
-            lblRevisionSuggestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            btnReviewAnswers.Location = new System.Drawing.Point(17, 490);
+            btnReviewAnswers.Margin = new Padding(4, 5, 4, 5);
+            btnReviewAnswers.Name = "btnReviewAnswers";
+            btnReviewAnswers.Size = new System.Drawing.Size(268, 190);
+            btnReviewAnswers.TabIndex = 3;
+            btnReviewAnswers.Text = "Review Answers";
+            btnReviewAnswers.UseVisualStyleBackColor = true;
+            btnReviewAnswers.Click += btnReviewAnswers_Click;
+            // 
+            // lblErrorMessage
+            // 
+            lblErrorMessage.AutoSize = true;
+            lblErrorMessage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lblErrorMessage.ForeColor = System.Drawing.Color.Red;
+            lblErrorMessage.Location = new System.Drawing.Point(523, 567);
+            lblErrorMessage.Margin = new Padding(4, 0, 4, 0);
+            lblErrorMessage.Name = "lblErrorMessage";
+            lblErrorMessage.Size = new System.Drawing.Size(72, 32);
+            lblErrorMessage.TabIndex = 4;
+            lblErrorMessage.Text = "Error";
             // 
             // frmResultsPage
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(800, 450);
-            Controls.Add(lblRevisionSuggestion);
-            Controls.Add(tblCategoryStrengths);
-            Controls.Add(btnReturnToHomePage);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1143, 750);
+            Controls.Add(lblErrorMessage);
+            Controls.Add(btnReviewAnswers);
+            Controls.Add(btnStartNewQuiz);
+            Controls.Add(dgvResults);
             Controls.Add(lblScore);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "frmResultsPage";
-            Text = "frmResultsPage";
-            ((System.ComponentModel.ISupportInitialize)tblCategoryStrengths).EndInit();
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Results";
+            ((System.ComponentModel.ISupportInitialize)dgvResults).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lblScore;
-        private System.Windows.Forms.Button btnReturnToHomePage;
-        private System.Windows.Forms.DataGridView tblCategoryStrengths;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tblCategory;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tblScore;
-        private System.Windows.Forms.Label lblRevisionSuggestion;
+        private Label lblScore;
+        private DataGridView dgvResults;
+        private DataGridViewTextBoxColumn Category;
+        private DataGridViewTextBoxColumn PercentageScore;
+        private Button btnStartNewQuiz;
+        private Button btnReviewAnswers;
+        private Label lblErrorMessage;
     }
 }

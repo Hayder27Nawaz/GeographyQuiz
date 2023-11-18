@@ -134,6 +134,7 @@ namespace geography_coursework.Pages
 
         private static Color UnSelectedColor() => Color.FromArgb(240, 240, 240);
         private static Color SelectedColor() => Color.FromArgb(255, 255, 128);
+
     }
 
 }

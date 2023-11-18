@@ -88,6 +88,7 @@
             btnStartSimpleQuiz.TabIndex = 5;
             btnStartSimpleQuiz.Text = "Simple";
             btnStartSimpleQuiz.UseVisualStyleBackColor = true;
+            btnStartSimpleQuiz.Click += btnStartSimpleQuiz_Click;
             // 
             // btnStartComplexQuiz
             // 
@@ -99,6 +100,7 @@
             btnStartComplexQuiz.TabIndex = 6;
             btnStartComplexQuiz.Text = "Complex";
             btnStartComplexQuiz.UseVisualStyleBackColor = true;
+            btnStartComplexQuiz.Click += btnStartComplexQuiz_Click;
             // 
             // btnStartCustomQuiz
             // 
@@ -110,15 +112,16 @@
             btnStartCustomQuiz.TabIndex = 7;
             btnStartCustomQuiz.Text = "Custom";
             btnStartCustomQuiz.UseVisualStyleBackColor = true;
+            btnStartCustomQuiz.Click += btnStartCustomQuiz_Click;
             // 
             // txtName
             // 
             txtName.BackColor = System.Drawing.SystemColors.Control;
             txtName.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             txtName.ForeColor = System.Drawing.Color.Green;
-            txtName.Location = new System.Drawing.Point(328, 25);
+            txtName.Location = new System.Drawing.Point(269, 25);
             txtName.Name = "txtName";
-            txtName.Size = new System.Drawing.Size(150, 34);
+            txtName.Size = new System.Drawing.Size(281, 34);
             txtName.TabIndex = 8;
             txtName.Text = "Enter Name";
             txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

@@ -49,7 +49,7 @@ namespace geography_coursework.Pages
             // 
             clbCategories.CheckOnClick = true;
             clbCategories.FormattingEnabled = true;
-            clbCategories.Items.AddRange(new object[] { "Premier League", "Championship", "League One", "League Two" });
+            clbCategories.Items.AddRange(new object[] { "The challenge of natural hazards", "The living world", "Physical landscapes in the UK", "Urban issues and challenges", "The changing economic world", "The challenge of resource management" });
             clbCategories.Location = new Point(17, 62);
             clbCategories.Margin = new Padding(4, 5, 4, 5);
             clbCategories.Name = "clbCategories";

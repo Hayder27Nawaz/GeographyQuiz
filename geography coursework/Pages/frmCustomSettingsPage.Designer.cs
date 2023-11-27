@@ -49,39 +49,35 @@ namespace geography_coursework.Pages
             // 
             clbCategories.CheckOnClick = true;
             clbCategories.FormattingEnabled = true;
-            clbCategories.Items.AddRange(new object[] { "The challenge of natural hazards", "The living world", "Physical landscapes in the UK", "Urban issues and challenges", "The changing economic world", "The challenge of resource management" });
-            clbCategories.Location = new Point(17, 62);
-            clbCategories.Margin = new Padding(4, 5, 4, 5);
+            clbCategories.Items.AddRange(new object[] { "Premier League", "Championship", "League One", "League Two" });
+            clbCategories.Location = new Point(12, 37);
             clbCategories.Name = "clbCategories";
-            clbCategories.Size = new Size(1107, 144);
+            clbCategories.Size = new Size(776, 76);
             clbCategories.TabIndex = 1;
             // 
             // lblSelectCategoryMessage
             // 
             lblSelectCategoryMessage.AutoSize = true;
-            lblSelectCategoryMessage.Location = new Point(17, 15);
-            lblSelectCategoryMessage.Margin = new Padding(4, 0, 4, 0);
+            lblSelectCategoryMessage.Location = new Point(12, 9);
             lblSelectCategoryMessage.Name = "lblSelectCategoryMessage";
-            lblSelectCategoryMessage.Size = new Size(148, 25);
+            lblSelectCategoryMessage.Size = new Size(98, 15);
             lblSelectCategoryMessage.TabIndex = 2;
             lblSelectCategoryMessage.Text = "Select categories:";
             // 
             // lblSelectTimerMessage
             // 
             lblSelectTimerMessage.AutoSize = true;
-            lblSelectTimerMessage.Location = new Point(17, 245);
-            lblSelectTimerMessage.Margin = new Padding(4, 0, 4, 0);
+            lblSelectTimerMessage.Location = new Point(12, 147);
             lblSelectTimerMessage.Name = "lblSelectTimerMessage";
-            lblSelectTimerMessage.Size = new Size(175, 25);
+            lblSelectTimerMessage.Size = new Size(116, 15);
             lblSelectTimerMessage.TabIndex = 3;
             lblSelectTimerMessage.Text = "Select timer settings:";
             // 
             // btnTimer10
             // 
-            btnTimer10.Location = new Point(17, 275);
-            btnTimer10.Margin = new Padding(4, 5, 4, 5);
+            btnTimer10.Location = new Point(12, 165);
             btnTimer10.Name = "btnTimer10";
-            btnTimer10.Size = new Size(349, 150);
+            btnTimer10.Size = new Size(244, 90);
             btnTimer10.TabIndex = 4;
             btnTimer10.Text = "10";
             btnTimer10.UseVisualStyleBackColor = true;
@@ -89,10 +85,9 @@ namespace geography_coursework.Pages
             // 
             // btnTimer20
             // 
-            btnTimer20.Location = new Point(374, 275);
-            btnTimer20.Margin = new Padding(4, 5, 4, 5);
+            btnTimer20.Location = new Point(262, 165);
             btnTimer20.Name = "btnTimer20";
-            btnTimer20.Size = new Size(356, 150);
+            btnTimer20.Size = new Size(249, 90);
             btnTimer20.TabIndex = 5;
             btnTimer20.Text = "20";
             btnTimer20.UseVisualStyleBackColor = true;
@@ -100,10 +95,9 @@ namespace geography_coursework.Pages
             // 
             // btnTimerUnlimited
             // 
-            btnTimerUnlimited.Location = new Point(739, 275);
-            btnTimerUnlimited.Margin = new Padding(4, 5, 4, 5);
+            btnTimerUnlimited.Location = new Point(517, 165);
             btnTimerUnlimited.Name = "btnTimerUnlimited";
-            btnTimerUnlimited.Size = new Size(387, 150);
+            btnTimerUnlimited.Size = new Size(271, 90);
             btnTimerUnlimited.TabIndex = 6;
             btnTimerUnlimited.Text = "Unlimited";
             btnTimerUnlimited.UseVisualStyleBackColor = true;
@@ -111,10 +105,9 @@ namespace geography_coursework.Pages
             // 
             // btnQuestions10
             // 
-            btnQuestions10.Location = new Point(17, 482);
-            btnQuestions10.Margin = new Padding(4, 5, 4, 5);
+            btnQuestions10.Location = new Point(12, 289);
             btnQuestions10.Name = "btnQuestions10";
-            btnQuestions10.Size = new Size(349, 150);
+            btnQuestions10.Size = new Size(244, 90);
             btnQuestions10.TabIndex = 7;
             btnQuestions10.Text = "10";
             btnQuestions10.UseVisualStyleBackColor = true;
@@ -123,19 +116,17 @@ namespace geography_coursework.Pages
             // lblSelectNumberOfQuestionsMessage
             // 
             lblSelectNumberOfQuestionsMessage.AutoSize = true;
-            lblSelectNumberOfQuestionsMessage.Location = new Point(17, 452);
-            lblSelectNumberOfQuestionsMessage.Margin = new Padding(4, 0, 4, 0);
+            lblSelectNumberOfQuestionsMessage.Location = new Point(12, 271);
             lblSelectNumberOfQuestionsMessage.Name = "lblSelectNumberOfQuestionsMessage";
-            lblSelectNumberOfQuestionsMessage.Size = new Size(233, 25);
+            lblSelectNumberOfQuestionsMessage.Size = new Size(154, 15);
             lblSelectNumberOfQuestionsMessage.TabIndex = 8;
             lblSelectNumberOfQuestionsMessage.Text = "Select number of questions:";
             // 
             // btnQuestions20
             // 
-            btnQuestions20.Location = new Point(374, 482);
-            btnQuestions20.Margin = new Padding(4, 5, 4, 5);
+            btnQuestions20.Location = new Point(262, 289);
             btnQuestions20.Name = "btnQuestions20";
-            btnQuestions20.Size = new Size(356, 150);
+            btnQuestions20.Size = new Size(249, 90);
             btnQuestions20.TabIndex = 9;
             btnQuestions20.Text = "20";
             btnQuestions20.UseVisualStyleBackColor = true;
@@ -143,22 +134,20 @@ namespace geography_coursework.Pages
             // 
             // btnQuestions50
             // 
-            btnQuestions50.Location = new Point(739, 482);
-            btnQuestions50.Margin = new Padding(4, 5, 4, 5);
+            btnQuestions50.Location = new Point(517, 289);
             btnQuestions50.Name = "btnQuestions50";
-            btnQuestions50.Size = new Size(387, 150);
+            btnQuestions50.Size = new Size(271, 90);
             btnQuestions50.TabIndex = 10;
-            btnQuestions50.Text = "50";
+            btnQuestions50.Text = "30";
             btnQuestions50.UseVisualStyleBackColor = true;
             btnQuestions50.Click += btnQuestions50_Click;
             // 
             // btnStart
             // 
             btnStart.BackColor = Color.FromArgb(0, 192, 0);
-            btnStart.Location = new Point(560, 642);
-            btnStart.Margin = new Padding(4, 5, 4, 5);
+            btnStart.Location = new Point(392, 385);
             btnStart.Name = "btnStart";
-            btnStart.Size = new Size(566, 88);
+            btnStart.Size = new Size(396, 53);
             btnStart.TabIndex = 11;
             btnStart.Text = "Start";
             btnStart.UseVisualStyleBackColor = false;
@@ -167,10 +156,9 @@ namespace geography_coursework.Pages
             // btnBack
             // 
             btnBack.BackColor = Color.Red;
-            btnBack.Location = new Point(17, 642);
-            btnBack.Margin = new Padding(4, 5, 4, 5);
+            btnBack.Location = new Point(12, 385);
             btnBack.Name = "btnBack";
-            btnBack.Size = new Size(534, 88);
+            btnBack.Size = new Size(374, 53);
             btnBack.TabIndex = 12;
             btnBack.Text = "Back";
             btnBack.UseVisualStyleBackColor = false;
@@ -178,10 +166,10 @@ namespace geography_coursework.Pages
             // 
             // frmCustomSettingsPage
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1143, 750);
+            ClientSize = new Size(800, 450);
             Controls.Add(btnBack);
             Controls.Add(btnStart);
             Controls.Add(btnQuestions50);
@@ -194,7 +182,6 @@ namespace geography_coursework.Pages
             Controls.Add(lblSelectTimerMessage);
             Controls.Add(lblSelectCategoryMessage);
             Controls.Add(clbCategories);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "frmCustomSettingsPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Settings";

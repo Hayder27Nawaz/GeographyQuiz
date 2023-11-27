@@ -114,7 +114,7 @@ namespace geography_coursework.Pages
         private void btnQuestions50_Click(object sender, EventArgs e)
         {
             ClearQuestionSelection();
-            _numberOfQuestions = 50;
+            _numberOfQuestions = 30;
             btnQuestions50.BackColor = SelectedColor();
         }
 

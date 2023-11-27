@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="quiz_questions\geography_questions.csv" />
+    <None Remove="quiz_questions\questions.csv" />
   </ItemGroup>
 
   <ItemGroup>

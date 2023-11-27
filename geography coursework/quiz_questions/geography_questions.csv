@@ -1,3 +1,43 @@
-Question,A,B,C,D,Answer,Difficulty,Category
-What is the result of 2 tetonic plates grinding against each other,Volcano eruption,Earthquake,5,6,B,1
-What is my name,haider,fahad,ali,sarwar,haider,2
+Category,Question,OptionA,OptionB,OptionC,OptionD,Answer,DifficultyLevel
+natural hazards,Which of the following is a primary effect of earthquakes?,Landslides,Tsunamis,Volcanic eruptions,Climate change,Tsunamis,10
+natural hazards,What is the primary cause of hurricanes?,Earthquakes,Volcanic activity,Ocean currents,Air pollution,Ocean currents,10
+natural hazards,Which scale is commonly used to measure the magnitude of earthquakes?,Richter Scale,Beaufort Scale,Saffir-Simpson Scale,Fujita Scale,Richter Scale,10
+natural hazards,What is the main gas emitted during a volcanic eruption?,Oxygen,Carbon Dioxide,Sulphur Dioxide,Methane,Sulphur Dioxide,10
+natural hazards,Which type of natural hazard is associated with the Ring of Fire?,Tornadoes,Earthquakes,Hurricanes,Floods,Earthquakes,10
+natural hazards,In which layer of the Earth do earthquakes typically occur?,Mantle,Crust,Core,Atmosphere,Crust,10
+natural hazards,What is the term for the process by which rocks are broken down into smaller particles?,Erosion,Weathering,Deposition,Sedimentation,Weathering,10
+natural hazards,Which of the following is a human-induced natural hazard?,Tsunami,Earthquake,Flooding,Deforestation,Deforestation,10
+natural hazards,What is the primary cause of coastal erosion?,Wind,Rain,Human activity,Tidal action,Wind,10
+natural hazards,Which of the following is a mitigating measure for reducing the impact of earthquakes?,Afforestation,Building in flood-prone areas,Urbanization,Retrofitting buildings,Retrofitting buildings,10
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+,,,,,,,
+,"1,Which of the following is a primary cause of earthquakes?,A. Volcanic activity,B. Plate tectonics,C. Human activities,D. Atmospheric pressure,Bn",,,,,,
+,"2,What is the primary focus of a seismologist?,A. Hurricanes,B. Earthquakes,C. Tornadoes,D. Floods,B",,,,,,
+,"3,Which natural hazard is associated with lahars?,A. Earthquakes,B. Volcanic eruptions,C. Tsunamis,D. Landslides,B",,,,,,
+,"4,What is the Fujita scale used to measure?,A. Earthquake intensity,B. Hurricane strength,C. Tornado intensity,D. Volcanic eruptions,C",,,,,,
+,"5,Which of the following is a key factor in determining the destructiveness of a hurricane?,A. Wind speed,B. Rainfall,C. Temperature,D. Humidity,A",,,,,,
+,"6,What is the primary cause of tsunamis?,A. Volcanic eruptions,B. Earthquakes,C. Hurricanes,D. Tornadoes,B",,,,,,
+,"7,Which of the following is a common method for monitoring and predicting volcanic eruptions?,A. Barometer readings,B. Seismic activity,C. Wind direction,D. Temperature fluctuations,B",,,,,,
+,"8,In the context of natural hazards, what does the term ""resilience"" refer to?,A. The ability to prevent hazards,B. The ability to recover and adapt,C. The severity of a hazard,D. The frequency of hazards,B",,,,,,
+,"9,What is a pyroclastic flow associated with?,A. Hurricanes,B. Earthquakes,C. Volcanic eruptions,D. Tsunamis,C",,,,,,
+,"10,Which atmospheric phenomenon is often linked to the occurrence of tornadoes?,A. El Niño,B. La Niña,C. Monsoon,D. Supercells,D",,,,,,

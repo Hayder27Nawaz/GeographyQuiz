@@ -10,7 +10,7 @@ namespace geography_coursework.Services
 {
     public class FileService
     {
-        private const string FilePath = "Data/questions.csv";
+        private const string FilePath = "quiz_questions/geography_questions.csv";
 
         public List<QuizQuestion> GetQuestions()
         {

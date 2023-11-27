@@ -1,3 +1,32 @@
-Question,A,B,C,D,Answer,Difficulty,Category
-What is the result of 2 tetonic plates grinding against each other,Volcano eruption,Earthquake,5,6,B,1
-What is my name,haider,fahad,ali,sarwar,haider,2
+Category,Question,OptionA,OptionB,OptionC,OptionD,Answer,DifficultyLevel
+natural hazards,Which of the following is a primary effect of earthquakes?,Landslides,Tsunamis,Volcanic eruptions,Climate change,Tsunamis,10
+natural hazards,What is the primary cause of hurricanes?,Earthquakes,Volcanic activity,Ocean currents,Air pollution,Ocean currents,10
+natural hazards,Which scale is commonly used to measure the magnitude of earthquakes?,Richter Scale,Beaufort Scale,Saffir-Simpson Scale,Fujita Scale,Richter Scale,10
+natural hazards,What is the main gas emitted during a volcanic eruption?,Oxygen,Carbon Dioxide,Sulphur Dioxide,Methane,Sulphur Dioxide,10
+natural hazards,Which type of natural hazard is associated with the Ring of Fire?,Tornadoes,Earthquakes,Hurricanes,Floods,Earthquakes,10
+natural hazards,In which layer of the Earth do earthquakes typically occur?,Mantle,Crust,Core,Atmosphere,Crust,10
+natural hazards,What is the term for the process by which rocks are broken down into smaller particles?,Erosion,Weathering,Deposition,Sedimentation,Weathering,10
+natural hazards,Which of the following is a human-induced natural hazard?,Tsunami,Earthquake,Flooding,Deforestation,Deforestation,10
+natural hazards,What is the primary cause of coastal erosion?,Wind,Rain,Human activity,Tidal action,Wind,10
+natural hazards,Which of the following is a mitigating measure for reducing the impact of earthquakes?,Afforestation,Building in flood-prone areas,Urbanization,Retrofitting buildings,Retrofitting buildings,10
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,
+natural hazards,,,,,,,

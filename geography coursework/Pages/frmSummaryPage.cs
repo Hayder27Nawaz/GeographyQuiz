@@ -19,10 +19,13 @@ namespace geography_coursework
 
         private Dictionary<string, int> _lookup = new()
         {
-            { "Premier League", 0 },
-            { "Championship", 1 },
-            { "League One", 2 },
-            { "League Two", 3 },
+            { "Natural Hazards", 0 },
+            { "Living World", 1 },
+            { "Physical Landscapes", 2 },
+            { "Urban Issues", 3 },
+            { "Economic World", 4 },
+            { "Resource Management", 5 },
+
         };
 
         public frmSummaryPage()
@@ -41,7 +44,7 @@ namespace geography_coursework
             chart.Titles.Clear();
             chart.Series.Clear();
 
-            chart.Titles.Add("Answers per league (0=Prem, 1=Champ, 2=League One, 3=League Two)");
+            chart.Titles.Add("Answers per league (0=NH, 1=LW, 2=PL, 3=UI, 4=EW, 5=RM)");
 
             chart.Series.Add(AddSeries(CorrectSeries, Color.Green));
             chart.Series.Add(AddSeries(IncorrectSeries, Color.Red));

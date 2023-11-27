@@ -144,6 +144,7 @@
             btnSubmit.TabIndex = 15;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = false;
+            btnSubmit.Click += btnSubmit_Click;
             // 
             // lblCategory
             // 

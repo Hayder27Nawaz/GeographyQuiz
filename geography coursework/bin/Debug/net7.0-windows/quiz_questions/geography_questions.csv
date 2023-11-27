@@ -1,32 +1,55 @@
 Category,Question,OptionA,OptionB,OptionC,OptionD,Answer,DifficultyLevel
-natural hazards,Which of the following is a primary effect of earthquakes?,Landslides,Tsunamis,Volcanic eruptions,Climate change,Tsunamis,10
-natural hazards,What is the primary cause of hurricanes?,Earthquakes,Volcanic activity,Ocean currents,Air pollution,Ocean currents,10
-natural hazards,Which scale is commonly used to measure the magnitude of earthquakes?,Richter Scale,Beaufort Scale,Saffir-Simpson Scale,Fujita Scale,Richter Scale,10
-natural hazards,What is the main gas emitted during a volcanic eruption?,Oxygen,Carbon Dioxide,Sulphur Dioxide,Methane,Sulphur Dioxide,10
-natural hazards,Which type of natural hazard is associated with the Ring of Fire?,Tornadoes,Earthquakes,Hurricanes,Floods,Earthquakes,10
-natural hazards,In which layer of the Earth do earthquakes typically occur?,Mantle,Crust,Core,Atmosphere,Crust,10
-natural hazards,What is the term for the process by which rocks are broken down into smaller particles?,Erosion,Weathering,Deposition,Sedimentation,Weathering,10
-natural hazards,Which of the following is a human-induced natural hazard?,Tsunami,Earthquake,Flooding,Deforestation,Deforestation,10
-natural hazards,What is the primary cause of coastal erosion?,Wind,Rain,Human activity,Tidal action,Wind,10
-natural hazards,Which of the following is a mitigating measure for reducing the impact of earthquakes?,Afforestation,Building in flood-prone areas,Urbanization,Retrofitting buildings,Retrofitting buildings,10
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
-natural hazards,,,,,,,
+Natural Hazards,What is the most common natural hazard in the UK?,Flooding,Hurricanes,Tornadoes,Drought,Flooding,10
+Natural Hazards,What area of the UK experiences the most landslides?,The Peak District,Snowdonia,The Pennines,The Lake District,The Lake District,10
+Natural Hazards,What scale measures the intensity of a hurricane?,The Beufort Scale,The Saffir-Simpson Scale,The Richter Scale,The Torro Scale,The Saffir-Simpson Scale,10
+Natural Hazards,What was the most powerful storm to hit the UK in recent years?,Storm Eunice,Storm Dennis,Storm Ciara,Storm Arwen,Storm Eunice,20
+Natural Hazards,What type of flood barrier protects London from flooding?,Thames Barrier,Levees,Reservoirs,Dikes,Thames Barrier,20
+Natural Hazards,What is the name of the warning system for tsunamis and what agency runs it?,Tsunami-warning system,Natural Hazards Warning System,National Tsunami Warning Center,Tsunami Warning System,Tsunami Warning System,20
+Natural Hazards,How many flood warnings were issued in the UK between 2000-2020?,Over 65000,Over 85000,Over 105000,Over 125000,Over 125000,30  
+Natural Hazards,What year saw devastating wildfires on Saddleworth Moor?,2018,2015,2011,2022,2018,30
+Natural Hazards,What is the most common cause of landslides in the UK?,Heavy rainfall,Deforestation,Mining activity,Glacial retreat,Heavy rainfall,30
+Living World,What is the only venomous snake native to the UK?,Viper,Cobra,Rattlesnake,Adder,Adder,10
+Living World,What is the fastest land animal in the UK?,Fox,Hare,Cheetah,Deer,Hare,10  
+Living World,What seabird species can be found across all coastal areas of the UK?,Guillemot,Puffin,Kittiwake,Fulmar,Fulmar,10
+Living World,What is the largest mammal found in UK forests?,Deer,Badger,Fox,Bear,Deer,20  
+Living World,Where are most of the UK's remaining ancient woodlands found?,Southwest England,Southeast England,Central Scotland,Northeast Scotland,Southwest England,20    
+Living World,What species of shark can occasionally be spotted off the coast of Cornwall and Wales?,Tiger shark,Great white shark,Basking shark,Whale shark,Basking shark,20
+Living World,Which UK bat species is known to prey on larger moths and even pipistrelle bats?,Noctule bat,Natterer’s bat,Greater horseshoe bat,Lesser horseshoe bat,Greater horseshoe bat,30
+Living World,How many species of deer live wild in the UK today?,3,4,5,6,4,30    
+Living World,What is the collective name for a group of gannets?,Colony,Pod,Wake,Flock,Colony,30
+Physical Landscapes,What is the highest mountain in the UK?,Ben Nevis,Scafell Pike,Slieve Donard,Snowdon,Ben Nevis,10   
+Physical Landscapes,What is the longest river located fully within England?,River Thames,River Severn,River Trent,River Great Ouse,River Thames,10     
+Physical Landscapes,What body of water separates Great Britain from Ireland?,Irish Sea,St Georges Channel,North Channel,Irish Strait,North Channel,10
+Physical Landscapes,In what UK country would you find the most extensive areas of blanket bog?,England,Wales,Scotland,Northern Ireland,Scotland,20  
+Physical Landscapes,Which UK estuary has the second highest tidal range in the world?,River Severn,River Thames,River Mersey,River Dee,River Severn,20   
+Physical Landscapes,What is the term used to describe a steep valley carved from glacial ice?,Cirque,Arete,U-shaped valley,Corrie,Corrie,20     
+Physical Landscapes,What is the highest sea cliff on the UK mainland?,Cape Wrath cliffs,Beachy Head,Flamborough Head,Boulmer cliffs,Cape Wrath cliffs,30    
+Physical Landscapes,In what region of the UK would you find moraines drumlins and eskers?,Scottish Highlands,Southern Uplands,Lake District,Yorkshire Dales,Scottish Highlands,30   
+Physical Landscapes,What is the proper name for the strait of water between Northern Ireland and Scotland?,The North Passage,The North Run,The Straight of Moyle,The North Channel,The North Channel,30   
+Urban Issues,What is the most densely populated city in the UK?,London,Birmingham,Manchester,Glasgow,London,10     
+Urban Issues,What UK city has the most extensive urban rail network?,London,Birmingham,Manchester,Glasgow,London,10   
+Urban Issues,What urban feature helps reduce traffic in central London?,Congestion charge,Low emission zone,Cycle superhighways,Pedestrian zones,Congestion charge,10      
+Urban Issues,Which UK city has struggled most with air pollution in recent years?,London,Birmingham,Manchester,Newcastle,Birmingham,20   
+Urban Issues,What transport project aims to improve rail connectivity between London and northern England?,NPR Scheme,Crossrail 2,HS2 Rail Link,Northern Hub,HS2 Rail Link,20   
+Urban Issues,What term describes the redevelopment of post-industrial sites in urban areas?,Urban intensification,Suburbanisation,Rural migration,Brownfield regeneration,Brownfield regeneration,20     
+Urban Issues,Which UK city has the most extensive urban green space as a percentage of total land area?,Edinburgh,Sheffield,Newcastle,York,Sheffield,30   
+Urban Issues,Which city pioneered the development of hard-engineered flood defences after severe flooding?,London,Carlisle,Gloucester,Sheffield,Gloucester,30    
+Urban Issues,What is the main cause of worsening traffic levels in UK cities?,Population growth,Increased car ownership,Lack of cycle lanes,Insufficient public transport,Increased car ownership,30    
+Economic World,What industry accounted for the largest share of UK GDP in 2022?,Finance and insurance,Manufacturing,Construction,Wholesale and retail,Finance and insurance,10   
+Economic World,What sector employs the most people in rural areas of the UK?,Agriculture,Forestry,Fishing,Tourism,Agriculture,10    
+Economic World,Which UK city is the main financial centre?,London,Birmingham,Manchester,Edinburgh,London,10   
+Economic World,What industry has seen a boom in growth in coastal towns with offshore wind projects?,Renewable energy,Finance,Technology,Tourism,Renewable energy,20    
+Economic World,Which region of England has the lowest unemployment rate as of 2021?,South West,South East,East of England,North West,South West,20   
+Economic World,What economic term describes businesses clustering together for shared resources and labor pools?,Economies of scale,Globalization,Agglomeration,Comparative advantage,Agglomeration,20   
+Economic World,Which UK region has seen the fastest economic growth in recent years?,South East,Scotland,East Midlands,Northern Ireland,Northern Ireland,30      
+Economic World,What challenge faces rural areas in the UK with small localized economies?,Lack of investment,Ageing populations,Youth outmigration,Overreliance on agriculture,Youth outmigration,30  
+Economic World,What is the main economic advantage for northern ports along the UK's east coast?,Proximity to renewable energy projects,Access to oil and gas reserves,Connections with mainland Europe,Cheaper land for development,Proximity to renewable energy projects,30
+Resource Management,What renewable energy source provides the largest share of electricity in the UK?,Wind power,Solar power,Hydro power ,Tidal power,Wind power,10    
+Resource Management,What resource do fracking operations aim to extract from underground shale rock?,Coal,Gas,Gold,Oil,Gas,10  
+Resource Management,What is responsible for the most water consumption across all sectors in the UK?,Agriculture,Industry,Energy production,Public water supply,Agriculture,10    
+Resource Management,What resource is extracted from the North Sea to satisfy over half of the UK's energy needs?,Coal,Oil,Gas,Uranium,Gas,20   
+Resource Management,What UK city has struggled most with illegal levels of nitrogen dioxide pollution?,London,Birmingham,Manchester,Glasgow,London,20    
+Resource Management,What is the main barrier to developing tidal power farms across the UK's coastline?,Expensive infrastructure,Unpredictable energy outputs,Damage to marine life,Impacts on coastal recreation,Expensive infrastructure,20   
+Resource Management,Which type of alternative energy do critics argue threatens areas of natural beauty in rural Wales?,Fracking wells,Wind turbines,Solar arrays,Biofuel planting,Wind turbines,30  
+Resource Management,What North Sea resource will start declining beyond 2025 presenting a challenge to the UK economy?,Fish stocks,Gas reserves,Renewable energy potential,Brent crude oil,Brent crude oil,30   
+Resource Management,What resource is controversially extracted in parts of rural Wales and proposed in Northern Ireland?,Iron ore,Slate,Gold,Natural gas,Natural gas,30

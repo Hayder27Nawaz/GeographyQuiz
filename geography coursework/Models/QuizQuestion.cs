@@ -1,4 +1,6 @@
-﻿namespace geography_coursework.Models
+﻿using System;
+
+namespace geography_coursework.Models
 {
     public class QuizQuestion
     {
@@ -24,7 +26,7 @@
                 OptionC = columns[4],
                 OptionD = columns[5],
                 Answer = columns[6],
-                DifficultyLevel = int.Parse(columns[7])
+                DifficultyLevel = Convert.ToInt32(columns[7])
             };
         }
     }

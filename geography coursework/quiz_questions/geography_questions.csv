@@ -1,55 +1,139 @@
 Category,Question,OptionA,OptionB,OptionC,OptionD,Answer,DifficultyLevel
-Natural Hazards,What is the most common natural hazard in the UK?,Flooding,Hurricanes,Tornadoes,Drought,Flooding,10
-Natural Hazards,What area of the UK experiences the most landslides?,The Peak District,Snowdonia,The Pennines,The Lake District,The Lake District,10
-Natural Hazards,What scale measures the intensity of a hurricane?,The Beufort Scale,The Saffir-Simpson Scale,The Richter Scale,The Torro Scale,The Saffir-Simpson Scale,10
-Natural Hazards,What was the most powerful storm to hit the UK in recent years?,Storm Eunice,Storm Dennis,Storm Ciara,Storm Arwen,Storm Eunice,20
-Natural Hazards,What type of flood barrier protects London from flooding?,Thames Barrier,Levees,Reservoirs,Dikes,Thames Barrier,20
-Natural Hazards,What is the name of the warning system for tsunamis and what agency runs it?,Tsunami-warning system,Natural Hazards Warning System,National Tsunami Warning Center,Tsunami Warning System,Tsunami Warning System,20
-Natural Hazards,How many flood warnings were issued in the UK between 2000-2020?,Over 65000,Over 85000,Over 105000,Over 125000,Over 125000,30  
-Natural Hazards,What year saw devastating wildfires on Saddleworth Moor?,2018,2015,2011,2022,2018,30
-Natural Hazards,What is the most common cause of landslides in the UK?,Heavy rainfall,Deforestation,Mining activity,Glacial retreat,Heavy rainfall,30
-Living World,What is the only venomous snake native to the UK?,Viper,Cobra,Rattlesnake,Adder,Adder,10
-Living World,What is the fastest land animal in the UK?,Fox,Hare,Cheetah,Deer,Hare,10  
-Living World,What seabird species can be found across all coastal areas of the UK?,Guillemot,Puffin,Kittiwake,Fulmar,Fulmar,10
-Living World,What is the largest mammal found in UK forests?,Deer,Badger,Fox,Bear,Deer,20  
-Living World,Where are most of the UK's remaining ancient woodlands found?,Southwest England,Southeast England,Central Scotland,Northeast Scotland,Southwest England,20    
-Living World,What species of shark can occasionally be spotted off the coast of Cornwall and Wales?,Tiger shark,Great white shark,Basking shark,Whale shark,Basking shark,20
-Living World,Which UK bat species is known to prey on larger moths and even pipistrelle bats?,Noctule bat,Natterer’s bat,Greater horseshoe bat,Lesser horseshoe bat,Greater horseshoe bat,30
-Living World,How many species of deer live wild in the UK today?,3,4,5,6,4,30    
-Living World,What is the collective name for a group of gannets?,Colony,Pod,Wake,Flock,Colony,30
-Physical Landscapes,What is the highest mountain in the UK?,Ben Nevis,Scafell Pike,Slieve Donard,Snowdon,Ben Nevis,10   
-Physical Landscapes,What is the longest river located fully within England?,River Thames,River Severn,River Trent,River Great Ouse,River Thames,10     
-Physical Landscapes,What body of water separates Great Britain from Ireland?,Irish Sea,St Georges Channel,North Channel,Irish Strait,North Channel,10
-Physical Landscapes,In what UK country would you find the most extensive areas of blanket bog?,England,Wales,Scotland,Northern Ireland,Scotland,20  
-Physical Landscapes,Which UK estuary has the second highest tidal range in the world?,River Severn,River Thames,River Mersey,River Dee,River Severn,20   
-Physical Landscapes,What is the term used to describe a steep valley carved from glacial ice?,Cirque,Arete,U-shaped valley,Corrie,Corrie,20     
-Physical Landscapes,What is the highest sea cliff on the UK mainland?,Cape Wrath cliffs,Beachy Head,Flamborough Head,Boulmer cliffs,Cape Wrath cliffs,30    
-Physical Landscapes,In what region of the UK would you find moraines drumlins and eskers?,Scottish Highlands,Southern Uplands,Lake District,Yorkshire Dales,Scottish Highlands,30   
-Physical Landscapes,What is the proper name for the strait of water between Northern Ireland and Scotland?,The North Passage,The North Run,The Straight of Moyle,The North Channel,The North Channel,30   
-Urban Issues,What is the most densely populated city in the UK?,London,Birmingham,Manchester,Glasgow,London,10     
-Urban Issues,What UK city has the most extensive urban rail network?,London,Birmingham,Manchester,Glasgow,London,10   
-Urban Issues,What urban feature helps reduce traffic in central London?,Congestion charge,Low emission zone,Cycle superhighways,Pedestrian zones,Congestion charge,10      
-Urban Issues,Which UK city has struggled most with air pollution in recent years?,London,Birmingham,Manchester,Newcastle,Birmingham,20   
-Urban Issues,What transport project aims to improve rail connectivity between London and northern England?,NPR Scheme,Crossrail 2,HS2 Rail Link,Northern Hub,HS2 Rail Link,20   
-Urban Issues,What term describes the redevelopment of post-industrial sites in urban areas?,Urban intensification,Suburbanisation,Rural migration,Brownfield regeneration,Brownfield regeneration,20     
-Urban Issues,Which UK city has the most extensive urban green space as a percentage of total land area?,Edinburgh,Sheffield,Newcastle,York,Sheffield,30   
-Urban Issues,Which city pioneered the development of hard-engineered flood defences after severe flooding?,London,Carlisle,Gloucester,Sheffield,Gloucester,30    
-Urban Issues,What is the main cause of worsening traffic levels in UK cities?,Population growth,Increased car ownership,Lack of cycle lanes,Insufficient public transport,Increased car ownership,30    
-Economic World,What industry accounted for the largest share of UK GDP in 2022?,Finance and insurance,Manufacturing,Construction,Wholesale and retail,Finance and insurance,10   
-Economic World,What sector employs the most people in rural areas of the UK?,Agriculture,Forestry,Fishing,Tourism,Agriculture,10    
-Economic World,Which UK city is the main financial centre?,London,Birmingham,Manchester,Edinburgh,London,10   
-Economic World,What industry has seen a boom in growth in coastal towns with offshore wind projects?,Renewable energy,Finance,Technology,Tourism,Renewable energy,20    
-Economic World,Which region of England has the lowest unemployment rate as of 2021?,South West,South East,East of England,North West,South West,20   
-Economic World,What economic term describes businesses clustering together for shared resources and labor pools?,Economies of scale,Globalization,Agglomeration,Comparative advantage,Agglomeration,20   
-Economic World,Which UK region has seen the fastest economic growth in recent years?,South East,Scotland,East Midlands,Northern Ireland,Northern Ireland,30      
-Economic World,What challenge faces rural areas in the UK with small localized economies?,Lack of investment,Ageing populations,Youth outmigration,Overreliance on agriculture,Youth outmigration,30  
+Natural Hazards,What is the primary cause of earthquakes?,Volcanic activity,Tectonic plate movement,Wind erosion,Human activities,Tectonic plate movement,10
+Natural Hazards,Which natural hazard is measured using the Richter scale?,Tornadoes,Earthquakes,Hurricanes,Floods,Earthquakes,10
+Natural Hazards,What is the main gas emitted during a volcanic eruption?,Oxygen,Carbon dioxide,Sulfur dioxide,Nitrogen,Sulfur dioxide,10
+Natural Hazards,Which of the following is a human-induced natural hazard?,Tornado,Earthquake,Nuclear meltdown,Volcanic eruption,Nuclear meltdown,10
+Natural Hazards,Which of the following is a sudden and violent shaking of the ground; often causing damage?,Tornado,Earthquake,Hurricane,Flood,Earthquake,10
+Natural Hazards,What is the primary cause of hurricanes?,Tectonic activity,Solar flares,Warm ocean water,Desertification,Warm ocean water,10
+Natural Hazards,Which natural hazard is characterized by a rapid flow of mud and debris down a slope?,Avalanche,Landslide,Erosion,Sinkhole,Landslide,10
+Natural Hazards,What is the name for the process of a river overflowing its banks and flooding the surrounding area?,Evaporation,Condensation,Infiltration,Flooding,Flooding,10
+Natural Hazards,Which natural hazard is associated with the eruption of ash and rocks from a volcano?,Pyroclastic flow,Lahar,Lava flow,Caldera collapse,Pyroclastic flow,10
+Natural Hazards,What is the primary source of energy that drives the Earth's weather system?,Geothermal energy,Solar energy,Wind energy,Nuclear energy,Solar energy,10
+Natural Hazards,In which layer of the Earth do earthquakes commonly occur?,Crust,Mantle,Outer core,Inner core,Crust,20
+Natural Hazards,What is the primary factor that determines the severity of a hurricane?,Wind speed,Temperature,Atmospheric pressure,Humidity,Atmospheric pressure,20
+Natural Hazards,Which natural hazard is often triggered by heavy rainfall and can result in the rapid rise of water levels in rivers?,Earthquake,Flood,Landslide,Tornado,Flood,20
+Natural Hazards,How does deforestation contribute to the occurrence of landslides?,It increases soil fertility,It reduces water runoff,It stabilizes the soil,It decreases vegetation holding the soil together,It decreases vegetation holding the soil together,20
+Natural Hazards,Which technology is commonly used to monitor and predict tornadoes?,Radar,Sonar,Lidar,Seismometer,Radar,20
+Natural Hazards,What is the main factor that influences the intensity of a volcanic eruption?,Altitude,Proximity to the equator,Type of rock,Amount of dissolved gases in magma,Amount of dissolved gases in magma,20
+Natural Hazards,"Which natural hazard is often associated with the ""Ring of Fire""?",Typhoon,Earthquake,Hurricane,Tornado,Earthquake,20
+Natural Hazards,What is the primary cause of coastal erosion?,Wind erosion,Human activities,Wave action,Glacial movement,Wave action,20
+Natural Hazards,Which atmospheric phenomenon is associated with the warming of ocean waters and influences climate patterns worldwide?,El Niño,La Niña,Monsoon,Tornado,El Niño,20
+Natural Hazards,How does the construction of dams contribute to the risk of earthquakes?,It increases tectonic activity,It alters the balance of Earth's crust,It reduces water pressure,It strengthens the Earth's crust,It alters the balance of Earth's crust,20
+Natural Hazards,What is the primary mechanism behind the formation of a tornado?,Rapid cooling of air,Convergence of air masses,Upwelling of warm air,Coriolis effect,Upwelling of warm air,30
+Natural Hazards,What is the main factor that determines whether a volcanic eruption is explosive or effusive?,Type of magma,Surrounding temperature,Earth's magnetic field,Proximity to the ocean,Type of magma,30
+Natural Hazards,How does urbanization contribute to the impact of floods?,It increases permeable surfaces,It decreases runoff,It improves drainage systems,It increases impervious surfaces,It increases impervious surfaces,30
+Natural Hazards,What is the primary cause of the formation of sinkholes?,Erosion by wind,Human activities,Dissolution of soluble rocks,Tectonic plate movement,Dissolution of soluble rocks,30
+Natural Hazards,What role do fault lines play in the occurrence of earthquakes?,They prevent earthquakes,They absorb seismic energy,They are the source of earthquakes,They regulate volcanic activity,They are the source of earthquakes,30
+Natural Hazards,How does climate change influence the frequency and intensity of natural hazards?,It has no effect,It reduces the impact,It increases the impact,It stabilizes the climate,It increases the impact,30
+Natural Hazards,Which type of landslide involves the movement of a large mass of rock and soil downslope?,Rockslide,Mudflow,Debris flow,Creep,Rockslide,30
+Natural Hazards,What is the primary factor influencing the development of hurricanes?,Wind patterns,Ocean currents,Atmospheric pressure,Solar radiation,Solar radiation,30
+Natural Hazards,In which layer of the Earth do most volcanic eruptions occur?,Crust,Mantle,Outer core,Inner core,Crust,30
+Natural Hazards,How does human settlement in flood-prone areas contribute to the impact of floods?,It reduces vulnerability,It promotes sustainable development,It increases exposure to risk,It improves disaster preparedness,It increases exposure to risk,30
+Living World,What is the process by which green plants make their own food?,Photosynthesis,Respiration,Transpiration,Excretion,Photosynthesis,10
+Living World,Which of the following is a primary consumer in a food chain?,Rabbit,Fox,Grass,Snake,Rabbit,10
+Living World,What is the main function of the heart in the human body?,Pumping blood,Digesting food,Breathing,Filtering water,Pumping blood,10
+Living World,What is the role of bacteria in the nitrogen cycle?,Convert nitrogen to a form plants can use,Produce oxygen,Decompose dead organisms,Fix carbon dioxide,Convert nitrogen to a form plants can use,10
+Living World,Which biome is characterized by cold winters and coniferous forests?,Taiga,Tundra,Tropical Rainforest,Desert,Taiga,10
+Living World,What is the source of energy in most ecosystems?,Sunlight,Heat,Electricity,Wind,Sunlight,10
+Living World,Which gas is essential for photosynthesis?,Carbon dioxide,Oxygen,Nitrogen,Hydrogen,Carbon dioxide,10
+Living World,What is the primary function of the kidneys in the human body?,Filtering waste from the blood,Producing insulin,Digesting food,Controlling body temperature,Filtering waste from the blood,10
+Living World,In which part of a flower are the ovules found?,Ovary,Petal,Stamen,Leaf,Ovary,10
+Living World,What is the process by which water is lost from plant leaves?,Transpiration,Respiration,Photosynthesis,Evaporation,Transpiration,10
+Living World,Which gas is produced during anaerobic respiration in animals?,Lactic acid,Carbon dioxide,Oxygen,Glucose,Lactic acid,20
+Living World,What is the main function of the alveoli in the lungs?,Gas exchange,Producing mucus,Filtering blood,Storing oxygen,Gas exchange,20
+Living World,Which of the following is an example of a decomposer in an ecosystem?,Fungi,Birds,Plants,Insects,Fungi,20
+Living World,What is the role of the pancreas in the digestive system?,Producing digestive enzymes,Filtering blood,Storing bile,Absorbing nutrients,Producing digestive enzymes,20
+Living World,What is the greenhouse effect?,Trapping heat in the Earth's atmosphere,Reducing heat in the Earth's atmosphere,Increasing oxygen levels,Preventing photosynthesis,Trapping heat in the Earth's atmosphere,20
+Living World,Which process is responsible for the formation of sedimentary rocks?,Weathering and erosion,Heat and pressure,Melting and cooling,Chemical precipitation,Weathering and erosion,20
+Living World,What is the purpose of mitosis in cell division?,Growth and repair,Production of sex cells,Creating genetic diversity,Energy production,Growth and repair,20
+Living World,In which part of a plant does most photosynthesis occur?,Leaves,Stems,Roots,Flowers,Leaves,20
+Living World,What is the main function of red blood cells?,Transporting oxygen,Producing antibodies,Digesting food,Storing nutrients,Transporting oxygen,20
+Living World,What is the trophic level of herbivores in a food chain?,Primary consumers,Producers,Decomposers,Tertiary consumers,Primary consumers,20
+Living World,What is a keystone species in an ecosystem?,A species that has a disproportionately large impact on its environment,An invasive species,An apex predator,An endangered species,A species that has a disproportionately large impact on its environment,30
+Living World,What is the role of the ozone layer in the atmosphere?,Absorbing ultraviolet radiation,Producing oxygen,Trapping greenhouse gases,Preventing acid rain,Absorbing ultraviolet radiation,30
+Living World,What is the primary factor that determines the climate of a region?,Latitude and altitude,Proximity to the equator,Distance from the ocean,Human population density,Latitude and altitude,30
+Living World,Which type of volcanic eruption is characterized by the explosive release of ash; gases; and rock fragments?,Plinian eruption,Strombolian eruption,Vulcanian eruption,Phreatomagmatic eruption,Plinian eruption,30
+Living World,What is the significance of biodiversity in an ecosystem?,Increased stability and resilience,Decreased stability and resilience,Higher productivity,Lower productivity,Increased stability and resilience,30
+Living World,What is biomagnification in a food chain?,The concentration of pollutants increases as you move up the food chain,The concentration of pollutants decreases as you move up the food chain,The concentration of nutrients increases as you move up the food chain,The concentration of nutrients decreases as you move up the food chain,The concentration of pollutants increases as you move up the food chain,30
+Living World,What is the role of the mycorrhizal association in plants?,Enhancing nutrient absorption,Providing structural support,Aiding in reproduction,Producing oxygen,Enhancing nutrient absorption,30
+Living World,"Which geological era is known as the ""Age of Dinosaurs""?",Mesozoic,Paleozoic,Cenozoic,Proterozoic,Mesozoic,30
+Living World,What is the primary source of energy for deep-sea ecosystems where sunlight cannot reach?,Chemical energy from hydrothermal vents,Photosynthesis,Heat from the Earth's core,Decomposition of organic matter,Chemical energy from hydrothermal vents,30
+Living World,What is the process of nitrogen fixation in the nitrogen cycle?,Conversion of atmospheric nitrogen into a form plants can use,Decomposition of dead organisms,Release of nitrogen from rocks,Conversion of nitrate to nitrogen gas,Conversion of atmospheric nitrogen into a form plants can use,30
+Physical Landscapes,What is the process by which green plants make their own food?,Photosynthesis,Respiration,Transpiration,Excretion,Photosynthesis,10
+Physical Landscapes,Which of the following is a primary consumer in a food chain?,Rabbit,Fox,Grass,Snake,Rabbit,10
+Physical Landscapes,What is the main function of the heart in the human body?,Pumping blood,Digesting food,Breathing,Filtering water,Pumping blood,10
+Physical Landscapes,What is the role of bacteria in the nitrogen cycle?,Convert nitrogen to a form plants can use,Produce oxygen,Decompose dead organisms,Fix carbon dioxide,Convert nitrogen to a form plants can use,10
+Physical Landscapes,Which biome is characterized by long; cold winters and coniferous forests?,Taiga,Tundra,Tropical Rainforest,Desert,Taiga,10
+Physical Landscapes,What is the source of energy in most ecosystems?,Sunlight,Heat,Electricity,Wind,Sunlight,10
+Physical Landscapes,Which gas is essential for photosynthesis?,Carbon dioxide,Oxygen,Nitrogen,Hydrogen,Carbon dioxide,10
+Physical Landscapes,What is the primary function of the kidneys in the human body?,Filtering waste from the blood,Producing insulin,Digesting food,Controlling body temperature,Filtering waste from the blood,10
+Physical Landscapes,In which part of a flower are the ovules found?,Ovary,Petal,Stamen,Leaf,Ovary,10
+Physical Landscapes,What is the process by which water is lost from plant leaves?,Transpiration,Respiration,Photosynthesis,Evaporation,Transpiration,10
+Physical Landscapes,Which gas is produced during anaerobic respiration in animals?,Lactic acid,Carbon dioxide,Oxygen,Glucose,Lactic acid,20
+Physical Landscapes,What is the main function of the alveoli in the lungs?,Gas exchange,Producing mucus,Filtering blood,Storing oxygen,Gas exchange,20
+Physical Landscapes,Which of the following is an example of a decomposer in an ecosystem?,Fungi,Birds,Plants,Insects,Fungi,20
+Physical Landscapes,What is the role of the pancreas in the digestive system?,Producing digestive enzymes,Filtering blood,Storing bile,Absorbing nutrients,Producing digestive enzymes,20
+Physical Landscapes,What is the greenhouse effect?,Trapping heat in the Earth's atmosphere,Reducing heat in the Earth's atmosphere,Increasing oxygen levels,Preventing photosynthesis,Trapping heat in the Earth's atmosphere,20
+Physical Landscapes,Which process is responsible for the formation of sedimentary rocks?,Weathering and erosion,Heat and pressure,Melting and cooling,Chemical precipitation,Weathering and erosion,20
+Physical Landscapes,What is the purpose of mitosis in cell division?,Growth and repair,Production of sex cells,Creating genetic diversity,Energy production,Growth and repair,20
+Physical Landscapes,In which part of a plant does most photosynthesis occur?,Leaves,Stems,Roots,Flowers,Leaves,20
+Physical Landscapes,What is the main function of red blood cells?,Transporting oxygen,Producing antibodies,Digesting food,Storing nutrients,Transporting oxygen,20
+Physical Landscapes,What is the trophic level of herbivores in a food chain?,Primary consumers,Producers,Decomposers,Tertiary consumers,Primary consumers,20
+Physical Landscapes,What is a keystone species in an ecosystem?,A species that has a disproportionately large impact on its environment,An invasive species,An apex predator,An endangered species,A species that has a disproportionately large impact on its environment,30
+Physical Landscapes,What is the role of the ozone layer in the atmosphere?,Absorbing ultraviolet radiation,Producing oxygen,Trapping greenhouse gases,Preventing acid rain,Absorbing ultraviolet radiation,30
+Physical Landscapes,What is the primary factor that determines the climate of a region?,Latitude and altitude,Proximity to the equator,Distance from the ocean,Human population density,Latitude and altitude,30
+Physical Landscapes,Which river in the UK is known for its dramatic horseshoe-shaped meander called the Great Oxbow?,Thames,Severn,Trent,Avon,Severn,30
+Physical Landscapes,What is the significance of biodiversity in an ecosystem?,Increased stability and resilience,Decreased stability and resilience,Higher productivity,Lower productivity,Increased stability and resilience,30
+Physical Landscapes,What is biomagnification in a food chain?,The concentration of pollutants increases as you move up the food chain,The concentration of pollutants decreases as you move up the food chain,The concentration of nutrients increases as you move up the food chain,The concentration of nutrients decreases as you move up the food chain,The concentration of pollutants increases as you move up the food chain,30
+Physical Landscapes,What is the role of the mycorrhizal association in plants?,Enhancing nutrient absorption,Providing structural support,Aiding in reproduction,Producing oxygen,Enhancing nutrient absorption,30
+Physical Landscapes,"Which geological era is known as the ""Age of Dinosaurs""?",Mesozoic,Paleozoic,Cenozoic,Proterozoic,Mesozoic,30
+Physical Landscapes,What is the primary source of energy for deep-sea ecosystems where sunlight cannot reach?,Chemical energy from hydrothermal vents,Photosynthesis,Heat from the Earth's core,Decomposition of organic matter,Chemical energy from hydrothermal vents,30
+Physical Landscapes,What is the process of nitrogen fixation in the nitrogen cycle?,Conversion of atmospheric nitrogen into a form plants can use,Decomposition of dead organisms,Release of nitrogen from rocks,Conversion of nitrate to nitrogen gas,Conversion of atmospheric nitrogen into a form plants can use,30
+Urban issues and challenges,What is urbanization?,The process of rural development,The process of moving to rural areas,The process of becoming more urban,The process of desertification,The process of becoming more urban,10
+Urban issues and challenges,Which of the following is a characteristic of a megacity?,Population less than a hundred thousand,Highly developed rural areas,Large population,Low crime rates,Large population,10
+Urban issues and challenges,What is the main cause of traffic congestion in urban areas?,Wide roads and efficient transport,Low population density,Poorly planned infrastructure and high population density,Lack of public transportation,Poorly planned infrastructure and high population density,10
+Urban issues and challenges,Which environmental issue is often associated with urbanization?,Deforestation,Air pollution,Overgrazing,Wetland preservation,Air pollution,10
+Urban issues and challenges,What is an informal settlement in an urban context?,A planned residential area,A slum or shantytown,An exclusive neighborhood,A business district,A slum or shantytown,10
+Urban issues and challenges,What is the purpose of green spaces in urban planning?,To create more parking spaces,To provide recreational areas and improve air quality,To increase traffic congestion,To promote industrial development,To provide recreational areas and improve air quality,10
+Urban issues and challenges,What is the impact of urbanization on water resources?,Decreased demand for water,Increased pollution and strain on water supply,Improved water quality,Stabilization of groundwater levels,Increased pollution and strain on water supply,10
+Urban issues and challenges,Which of the following is a social challenge in urban areas?,Low crime rates,Increased social cohesion,Access to education and healthcare,Isolation and loneliness,Isolation and loneliness,10
+Urban issues and challenges,What is urban sprawl?,The planned expansion of a city,The spread of urban areas into surrounding rural areas,The compact development of urban areas,The creation of green belts,The planned expansion of a city,10
+Urban issues and challenges,What is the purpose of zoning laws in urban planning?,To encourage mixed-use development,To regulate land use and prevent incompatible activities,To restrict the construction of residential areas,To promote urban sprawl,To regulate land use and prevent incompatible activities,10
+Urban issues and challenges,What is the concept of gentrification in urban areas?,The decline of urban areas,The process of renovating and improving a neighborhood,The expansion of slums,The creation of green belts,The process of renovating and improving a neighborhood,20
+Urban issues and challenges,How does industrialization contribute to urbanization?,By reducing job opportunities,By promoting rural development,By creating employment opportunities and attracting people to cities,By discouraging technological advancements,By creating employment opportunities and attracting people to cities,20
+Urban issues and challenges,What role do transportation systems play in urban planning?,To increase traffic congestion,To encourage the use of private vehicles,To promote sustainable and efficient movement of people and goods,To isolate neighborhoods,To promote sustainable and efficient movement of people and goods,20
+Urban issues and challenges,What is the concept of sustainable urban development?,The rapid and unplanned growth of urban areas,The development of cities without considering environmental impact,Development that meets the needs of the present without compromising the ability of future generations to meet their own needs,The exclusive focus on economic growth,Development that meets the needs of the present without compromising the ability of future generations to meet their own needs,20
+Urban issues and challenges,How does urbanization affect employment patterns?,By creating job opportunities in both urban and rural areas,By concentrating job opportunities in urban areas,By reducing job opportunities overall,By eliminating the need for employment,By reducing job opportunities overall,20
+Urban issues and challenges,What is the significance of brownfield sites in urban planning?,Areas with high pollution levels,Former industrial sites that can be redeveloped,Protected natural areas,Exclusive residential neighborhoods,Former industrial sites that can be redeveloped,20
+Urban issues and challenges,How does housing affordability impact urban populations?,It has no effect on urban populations,It leads to an increase in homelessness,It contributes to the growth of informal settlements,It promotes social cohesion and equality,It contributes to the growth of informal settlements,20
+Urban issues and challenges,What is the role of the government in addressing urban issues?,To ignore urban issues,To regulate and plan urban development,To promote urban sprawl,To increase traffic congestion,To regulate and plan urban development,20
+Urban issues and challenges,What is the purpose of a green belt in urban planning?,To restrict the development of residential areas,To encourage mixed-use development,To promote industrial growth,To increase traffic congestion,To restrict the development of residential areas,20
+Urban issues and challenges,What is the concept of the digital divide in urban areas?,The gap between rural and urban areas,The gap between those with access to technology and those without,The gap between rich and poor in urban areas,The gap between different ethnic groups in urban areas,The gap between those with access to technology and those without,20
+Urban issues and challenges,What is the concept of a smart city?,A city with a high crime rate,An urban area with poor infrastructure,An innovative city that uses technology to enhance performance and well-being,An exclusive neighborhood for the wealthy,An innovative city that uses technology to enhance performance and well-being,30
+Urban issues and challenges,How do urban heat islands contribute to climate change?,By reducing temperatures in urban areas,By increasing energy efficiency,By trapping heat and contributing to global warming,By promoting green spaces,By trapping heat and contributing to global warming,30
+Urban issues and challenges,What is the role of NGOs in addressing urban challenges?,To exacerbate urban problems,To provide financial support to large corporations,To advocate for community interests and work towards solutions,To discourage community engagement,To advocate for community interests and work towards solutions,30
+Urban issues and challenges,What is the impact of urbanization on cultural heritage?,Preservation and promotion of cultural heritage,Destruction and neglect of cultural heritage,Isolation of cultural communities,Neutral impact on cultural heritage,Destruction and neglect of cultural heritage,30
+Urban issues and challenges,How does the lack of sanitation facilities contribute to urban challenges?,It has no impact on urban challenges,It improves public health,It leads to the spread of diseases and environmental pollution,It promotes sustainable development,It leads to the spread of diseases and environmental pollution,30
+Urban issues and challenges,What is the concept of social inequality in urban areas?,The equal distribution of resources and opportunities,The unequal distribution of resources and opportunities among different social groups,The elimination of social classes,The promotion of social mobility,The unequal distribution of resources and opportunities among different social groups,30
+Urban issues and challenges,How does urbanization impact biodiversity?,It has no impact on biodiversity,It promotes biodiversity conservation,It leads to the loss of biodiversity,It accelerates evolution,It has no impact on biodiversity,30
+Urban issues and challenges,What is the role of urban planning in disaster management?,To increase vulnerability to disasters,To create a response plan after a disaster occurs,To reduce the risk and impact of disasters through effective planning,To encourage the concentration of vulnerable populations in disaster-prone areas,To reduce the risk and impact of disasters through effective planning,30
+Urban issues and challenges,How does globalization contribute to urban challenges?,By promoting local economies,By increasing cultural diversity,By creating economic opportunities and challenges,By reducing the interconnectedness of urban areas,By promoting local economies,30
+Urban issues and challenges,What is the impact of air pollution on urban populations?,Improved respiratory health,Increased risk of respiratory diseases and other health issues,Enhanced quality of life,Decreased need for environmental regulations,Increased risk of respiratory diseases and other health issues,30
+Economic World,What industry accounted for the largest share of UK GDP in 2022?,Finance and insurance,Manufacturing,Construction,Wholesale and retail,Finance and insurance,10
+Economic World,What sector employs the most people in rural areas of the UK?,Agriculture,Forestry,Fishing,Tourism,Agriculture,10
+Economic World,Which UK city is the main financial centre?,London,Birmingham,Manchester,Edinburgh,London,10
+Economic World,What industry has seen a boom in growth in coastal towns with offshore wind projects?,Renewable energy,Finance,Technology,Tourism,Renewable energy,20
+Economic World,Which region of England has the lowest unemployment rate as of 2021?,South West,South East,East of England,North West,South West,20
+Economic World,What economic term describes businesses clustering together for shared resources and labor pools?,Economies of scale,Globalization,Agglomeration,Comparative advantage,Agglomeration,20
+Economic World,Which UK region has seen the fastest economic growth in recent years?,South East,Scotland,East Midlands,Northern Ireland,Northern Ireland,30
+Economic World,What challenge faces rural areas in the UK with small localized economies?,Lack of investment,Ageing populations,Youth outmigration,Overreliance on agriculture,Youth outmigration,30
 Economic World,What is the main economic advantage for northern ports along the UK's east coast?,Proximity to renewable energy projects,Access to oil and gas reserves,Connections with mainland Europe,Cheaper land for development,Proximity to renewable energy projects,30
-Resource Management,What renewable energy source provides the largest share of electricity in the UK?,Wind power,Solar power,Hydro power ,Tidal power,Wind power,10    
-Resource Management,What resource do fracking operations aim to extract from underground shale rock?,Coal,Gas,Gold,Oil,Gas,10  
-Resource Management,What is responsible for the most water consumption across all sectors in the UK?,Agriculture,Industry,Energy production,Public water supply,Agriculture,10    
-Resource Management,What resource is extracted from the North Sea to satisfy over half of the UK's energy needs?,Coal,Oil,Gas,Uranium,Gas,20   
-Resource Management,What UK city has struggled most with illegal levels of nitrogen dioxide pollution?,London,Birmingham,Manchester,Glasgow,London,20    
-Resource Management,What is the main barrier to developing tidal power farms across the UK's coastline?,Expensive infrastructure,Unpredictable energy outputs,Damage to marine life,Impacts on coastal recreation,Expensive infrastructure,20   
-Resource Management,Which type of alternative energy do critics argue threatens areas of natural beauty in rural Wales?,Fracking wells,Wind turbines,Solar arrays,Biofuel planting,Wind turbines,30  
-Resource Management,What North Sea resource will start declining beyond 2025 presenting a challenge to the UK economy?,Fish stocks,Gas reserves,Renewable energy potential,Brent crude oil,Brent crude oil,30   
+Resource Management,What renewable energy source provides the largest share of electricity in the UK?,Wind power,Solar power,Hydro power ,Tidal power,Wind power,10
+Resource Management,What resource do fracking operations aim to extract from underground shale rock?,Coal,Gas,Gold,Oil,Gas,10
+Resource Management,What is responsible for the most water consumption across all sectors in the UK?,Agriculture,Industry,Energy production,Public water supply,Agriculture,10
+Resource Management,What resource is extracted from the North Sea to satisfy over half of the UK's energy needs?,Coal,Oil,Gas,Uranium,Gas,20
+Resource Management,What UK city has struggled most with illegal levels of nitrogen dioxide pollution?,London,Birmingham,Manchester,Glasgow,London,20
+Resource Management,What is the main barrier to developing tidal power farms across the UK's coastline?,Expensive infrastructure,Unpredictable energy outputs,Damage to marine life,Impacts on coastal recreation,Expensive infrastructure,20
+Resource Management,Which type of alternative energy do critics argue threatens areas of natural beauty in rural Wales?,Fracking wells,Wind turbines,Solar arrays,Biofuel planting,Wind turbines,30
+Resource Management,What North Sea resource will start declining beyond 2025 presenting a challenge to the UK economy?,Fish stocks,Gas reserves,Renewable energy potential,Brent crude oil,Brent crude oil,30
 Resource Management,What resource is controversially extracted in parts of rural Wales and proposed in Northern Ireland?,Iron ore,Slate,Gold,Natural gas,Natural gas,30

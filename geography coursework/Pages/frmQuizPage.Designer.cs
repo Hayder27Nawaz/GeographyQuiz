@@ -97,11 +97,11 @@
             // 
             // lblQuestion
             // 
-            lblQuestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            lblQuestion.BackColor = System.Drawing.Color.Transparent;
             lblQuestion.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            lblQuestion.Location = new System.Drawing.Point(344, 68);
+            lblQuestion.Location = new System.Drawing.Point(225, 9);
             lblQuestion.Name = "lblQuestion";
-            lblQuestion.Size = new System.Drawing.Size(112, 49);
+            lblQuestion.Size = new System.Drawing.Size(350, 141);
             lblQuestion.TabIndex = 9;
             lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 

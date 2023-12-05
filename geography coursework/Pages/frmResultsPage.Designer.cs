@@ -30,6 +30,7 @@ namespace geography_coursework.Pages
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             lblScore = new Label();
             dgvResults = new DataGridView();
             Category = new DataGridViewTextBoxColumn();
@@ -43,25 +44,31 @@ namespace geography_coursework.Pages
             // lblScore
             // 
             lblScore.AutoSize = true;
-            lblScore.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            lblScore.Location = new System.Drawing.Point(523, 34);
+            lblScore.BackColor = System.Drawing.Color.Transparent;
+            lblScore.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblScore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            lblScore.Location = new System.Drawing.Point(353, 21);
             lblScore.Margin = new Padding(4, 0, 4, 0);
             lblScore.Name = "lblScore";
-            lblScore.Size = new System.Drawing.Size(95, 41);
+            lblScore.Size = new System.Drawing.Size(107, 40);
             lblScore.TabIndex = 0;
             lblScore.Text = "Score";
             // 
             // dgvResults
             // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(0, 192, 0);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Britannic Bold", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dgvResults.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dgvResults.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvResults.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvResults.Columns.AddRange(new DataGridViewColumn[] { Category, PercentageScore });
-            dgvResults.Location = new System.Drawing.Point(17, 112);
+            dgvResults.Location = new System.Drawing.Point(13, 83);
             dgvResults.Margin = new Padding(4, 5, 4, 5);
             dgvResults.Name = "dgvResults";
             dgvResults.RowHeadersWidth = 62;
             dgvResults.RowTemplate.Height = 25;
-            dgvResults.Size = new System.Drawing.Size(1109, 303);
+            dgvResults.Size = new System.Drawing.Size(774, 197);
             dgvResults.TabIndex = 1;
             // 
             // Category
@@ -80,10 +87,12 @@ namespace geography_coursework.Pages
             // 
             // btnStartNewQuiz
             // 
-            btnStartNewQuiz.Location = new System.Drawing.Point(858, 490);
+            btnStartNewQuiz.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnStartNewQuiz.ForeColor = System.Drawing.Color.Green;
+            btnStartNewQuiz.Location = new System.Drawing.Point(571, 312);
             btnStartNewQuiz.Margin = new Padding(4, 5, 4, 5);
             btnStartNewQuiz.Name = "btnStartNewQuiz";
-            btnStartNewQuiz.Size = new System.Drawing.Size(268, 190);
+            btnStartNewQuiz.Size = new System.Drawing.Size(216, 112);
             btnStartNewQuiz.TabIndex = 2;
             btnStartNewQuiz.Text = "New";
             btnStartNewQuiz.UseVisualStyleBackColor = true;
@@ -91,10 +100,12 @@ namespace geography_coursework.Pages
             // 
             // btnReviewAnswers
             // 
-            btnReviewAnswers.Location = new System.Drawing.Point(17, 490);
+            btnReviewAnswers.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnReviewAnswers.ForeColor = System.Drawing.Color.Green;
+            btnReviewAnswers.Location = new System.Drawing.Point(13, 312);
             btnReviewAnswers.Margin = new Padding(4, 5, 4, 5);
             btnReviewAnswers.Name = "btnReviewAnswers";
-            btnReviewAnswers.Size = new System.Drawing.Size(268, 190);
+            btnReviewAnswers.Size = new System.Drawing.Size(216, 112);
             btnReviewAnswers.TabIndex = 3;
             btnReviewAnswers.Text = "Review Answers";
             btnReviewAnswers.UseVisualStyleBackColor = true;
@@ -103,12 +114,13 @@ namespace geography_coursework.Pages
             // lblErrorMessage
             // 
             lblErrorMessage.AutoSize = true;
-            lblErrorMessage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            lblErrorMessage.ForeColor = System.Drawing.Color.Red;
-            lblErrorMessage.Location = new System.Drawing.Point(523, 567);
+            lblErrorMessage.BackColor = System.Drawing.Color.Transparent;
+            lblErrorMessage.Font = new System.Drawing.Font("Britannic Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblErrorMessage.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            lblErrorMessage.Location = new System.Drawing.Point(370, 351);
             lblErrorMessage.Margin = new Padding(4, 0, 4, 0);
             lblErrorMessage.Name = "lblErrorMessage";
-            lblErrorMessage.Size = new System.Drawing.Size(72, 32);
+            lblErrorMessage.Size = new System.Drawing.Size(80, 31);
             lblErrorMessage.TabIndex = 4;
             lblErrorMessage.Text = "Error";
             // 
@@ -116,7 +128,10 @@ namespace geography_coursework.Pages
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1143, 750);
+            BackColor = System.Drawing.Color.Lime;
+            BackgroundImage = Properties.Resources.geoquiz_homepage_2;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new System.Drawing.Size(800, 450);
             Controls.Add(lblErrorMessage);
             Controls.Add(btnReviewAnswers);
             Controls.Add(btnStartNewQuiz);

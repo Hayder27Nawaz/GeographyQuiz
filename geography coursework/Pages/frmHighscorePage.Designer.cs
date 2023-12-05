@@ -30,100 +30,119 @@ namespace geography_coursework
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvHighscores = new System.Windows.Forms.DataGridView();
-            this.btnReturnToHome = new System.Windows.Forms.Button();
-            this.lblErrorMessage = new System.Windows.Forms.Label();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Score = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHighscores)).BeginInit();
-            this.SuspendLayout();
+            dgvHighscores = new DataGridView();
+            Id = new DataGridViewTextBoxColumn();
+            Username = new DataGridViewTextBoxColumn();
+            Type = new DataGridViewTextBoxColumn();
+            Score = new DataGridViewTextBoxColumn();
+            Date = new DataGridViewTextBoxColumn();
+            btnReturnToHome = new Button();
+            lblErrorMessage = new Label();
+            btnReturnToHomePage = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvHighscores).BeginInit();
+            SuspendLayout();
             // 
             // dgvHighscores
             // 
-            this.dgvHighscores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvHighscores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHighscores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Id,
-            this.Username,
-            this.Type,
-            this.Score,
-            this.Date});
-            this.dgvHighscores.Location = new System.Drawing.Point(12, 12);
-            this.dgvHighscores.Name = "dgvHighscores";
-            this.dgvHighscores.RowTemplate.Height = 25;
-            this.dgvHighscores.Size = new System.Drawing.Size(776, 374);
-            this.dgvHighscores.TabIndex = 0;
-            this.dgvHighscores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHighscores_CellDoubleClick);
-            // 
-            // btnReturnToHome
-            // 
-            this.btnReturnToHome.Location = new System.Drawing.Point(614, 392);
-            this.btnReturnToHome.Name = "btnReturnToHome";
-            this.btnReturnToHome.Size = new System.Drawing.Size(174, 46);
-            this.btnReturnToHome.TabIndex = 1;
-            this.btnReturnToHome.Text = "Back";
-            this.btnReturnToHome.UseVisualStyleBackColor = true;
-            this.btnReturnToHome.Click += new System.EventHandler(this.btnReturnToHome_Click);
-            // 
-            // lblErrorMessage
-            // 
-            this.lblErrorMessage.AutoSize = true;
-            this.lblErrorMessage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblErrorMessage.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorMessage.Location = new System.Drawing.Point(12, 403);
-            this.lblErrorMessage.Name = "lblErrorMessage";
-            this.lblErrorMessage.Size = new System.Drawing.Size(117, 21);
-            this.lblErrorMessage.TabIndex = 2;
-            this.lblErrorMessage.Text = "Error Message";
+            dgvHighscores.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvHighscores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvHighscores.Columns.AddRange(new DataGridViewColumn[] { Id, Username, Type, Score, Date });
+            dgvHighscores.Location = new System.Drawing.Point(13, 56);
+            dgvHighscores.Margin = new Padding(4, 5, 4, 5);
+            dgvHighscores.Name = "dgvHighscores";
+            dgvHighscores.RowHeadersWidth = 62;
+            dgvHighscores.RowTemplate.Height = 25;
+            dgvHighscores.Size = new System.Drawing.Size(774, 380);
+            dgvHighscores.TabIndex = 0;
+            dgvHighscores.CellDoubleClick += dgvHighscores_CellDoubleClick;
             // 
             // Id
             // 
-            this.Id.HeaderText = "#";
-            this.Id.Name = "Id";
-            this.Id.ReadOnly = true;
+            Id.HeaderText = "#";
+            Id.MinimumWidth = 8;
+            Id.Name = "Id";
+            Id.ReadOnly = true;
             // 
             // Username
             // 
-            this.Username.HeaderText = "Name";
-            this.Username.Name = "Username";
-            this.Username.ReadOnly = true;
+            Username.HeaderText = "Name";
+            Username.MinimumWidth = 8;
+            Username.Name = "Username";
+            Username.ReadOnly = true;
             // 
             // Type
             // 
-            this.Type.HeaderText = "Type";
-            this.Type.Name = "Type";
-            this.Type.ReadOnly = true;
+            Type.HeaderText = "Type";
+            Type.MinimumWidth = 8;
+            Type.Name = "Type";
+            Type.ReadOnly = true;
             // 
             // Score
             // 
-            this.Score.HeaderText = "Score";
-            this.Score.Name = "Score";
-            this.Score.ReadOnly = true;
+            Score.HeaderText = "Score";
+            Score.MinimumWidth = 8;
+            Score.Name = "Score";
+            Score.ReadOnly = true;
             // 
             // Date
             // 
-            this.Date.HeaderText = "Date";
-            this.Date.Name = "Date";
-            this.Date.ReadOnly = true;
+            Date.HeaderText = "Date";
+            Date.MinimumWidth = 8;
+            Date.Name = "Date";
+            Date.ReadOnly = true;
+            // 
+            // btnReturnToHome
+            // 
+            btnReturnToHome.Location = new System.Drawing.Point(877, 653);
+            btnReturnToHome.Margin = new Padding(4, 5, 4, 5);
+            btnReturnToHome.Name = "btnReturnToHome";
+            btnReturnToHome.Size = new System.Drawing.Size(249, 77);
+            btnReturnToHome.TabIndex = 1;
+            btnReturnToHome.Text = "Back";
+            btnReturnToHome.UseVisualStyleBackColor = true;
+            btnReturnToHome.Click += btnReturnToHome_Click;
+            // 
+            // lblErrorMessage
+            // 
+            lblErrorMessage.AutoSize = true;
+            lblErrorMessage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lblErrorMessage.ForeColor = System.Drawing.Color.Red;
+            lblErrorMessage.Location = new System.Drawing.Point(17, 672);
+            lblErrorMessage.Margin = new Padding(4, 0, 4, 0);
+            lblErrorMessage.Name = "lblErrorMessage";
+            lblErrorMessage.Size = new System.Drawing.Size(178, 32);
+            lblErrorMessage.TabIndex = 2;
+            lblErrorMessage.Text = "Error Message";
+            // 
+            // btnReturnToHomePage
+            // 
+            btnReturnToHomePage.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnReturnToHomePage.ForeColor = System.Drawing.Color.Green;
+            btnReturnToHomePage.Location = new System.Drawing.Point(259, 12);
+            btnReturnToHomePage.Name = "btnReturnToHomePage";
+            btnReturnToHomePage.Size = new System.Drawing.Size(254, 36);
+            btnReturnToHomePage.TabIndex = 10;
+            btnReturnToHomePage.Text = "back to student home page";
+            btnReturnToHomePage.UseVisualStyleBackColor = true;
+            btnReturnToHomePage.Click += btnReturnToHomePage_Click;
             // 
             // frmHighscorePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblErrorMessage);
-            this.Controls.Add(this.btnReturnToHome);
-            this.Controls.Add(this.dgvHighscores);
-            this.Name = "frmHighscorePage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Highscores";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHighscores)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.Lime;
+            ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(btnReturnToHomePage);
+            Controls.Add(lblErrorMessage);
+            Controls.Add(btnReturnToHome);
+            Controls.Add(dgvHighscores);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "frmHighscorePage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Highscores";
+            ((System.ComponentModel.ISupportInitialize)dgvHighscores).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -136,5 +155,6 @@ namespace geography_coursework
         private DataGridViewTextBoxColumn Type;
         private DataGridViewTextBoxColumn Score;
         private DataGridViewTextBoxColumn Date;
+        private Button btnReturnToHomePage;
     }
 }

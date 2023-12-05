@@ -46,48 +46,61 @@
             // 
             // btnOptionA
             // 
+            btnOptionA.BackColor = System.Drawing.Color.Lime;
+            btnOptionA.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnOptionA.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             btnOptionA.Location = new System.Drawing.Point(12, 175);
             btnOptionA.Name = "btnOptionA";
             btnOptionA.Size = new System.Drawing.Size(269, 117);
             btnOptionA.TabIndex = 0;
             btnOptionA.Text = "OptionA";
-            btnOptionA.UseVisualStyleBackColor = true;
+            btnOptionA.UseVisualStyleBackColor = false;
             btnOptionA.Click += btnOptionA_Click;
             // 
             // btnOptionB
             // 
+            btnOptionB.BackColor = System.Drawing.Color.Lime;
+            btnOptionB.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnOptionB.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             btnOptionB.Location = new System.Drawing.Point(520, 175);
             btnOptionB.Name = "btnOptionB";
             btnOptionB.Size = new System.Drawing.Size(268, 117);
             btnOptionB.TabIndex = 1;
             btnOptionB.Text = "OptionB";
-            btnOptionB.UseVisualStyleBackColor = true;
+            btnOptionB.UseVisualStyleBackColor = false;
             btnOptionB.Click += btnOptionB_Click;
             // 
             // btnOptionC
             // 
+            btnOptionC.BackColor = System.Drawing.Color.Lime;
+            btnOptionC.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnOptionC.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             btnOptionC.Location = new System.Drawing.Point(12, 321);
             btnOptionC.Name = "btnOptionC";
             btnOptionC.Size = new System.Drawing.Size(269, 117);
             btnOptionC.TabIndex = 2;
             btnOptionC.Text = "OptionC";
-            btnOptionC.UseVisualStyleBackColor = true;
+            btnOptionC.UseVisualStyleBackColor = false;
             btnOptionC.Click += btnOptionC_Click;
             // 
             // btnOptionD
             // 
+            btnOptionD.BackColor = System.Drawing.Color.Lime;
+            btnOptionD.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnOptionD.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             btnOptionD.Location = new System.Drawing.Point(520, 321);
             btnOptionD.Name = "btnOptionD";
             btnOptionD.Size = new System.Drawing.Size(268, 117);
             btnOptionD.TabIndex = 3;
             btnOptionD.Text = "OptionD";
-            btnOptionD.UseVisualStyleBackColor = true;
+            btnOptionD.UseVisualStyleBackColor = false;
             btnOptionD.Click += btnOptionD_Click;
             // 
             // lblCounter
             // 
             lblCounter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            lblCounter.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblCounter.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblCounter.ForeColor = System.Drawing.Color.Green;
             lblCounter.Location = new System.Drawing.Point(581, 11);
             lblCounter.Name = "lblCounter";
             lblCounter.Size = new System.Drawing.Size(207, 45);
@@ -98,7 +111,8 @@
             // lblQuestion
             // 
             lblQuestion.BackColor = System.Drawing.Color.Transparent;
-            lblQuestion.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblQuestion.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblQuestion.ForeColor = System.Drawing.SystemColors.Control;
             lblQuestion.Location = new System.Drawing.Point(225, 9);
             lblQuestion.Name = "lblQuestion";
             lblQuestion.Size = new System.Drawing.Size(350, 141);
@@ -108,7 +122,8 @@
             // lblTracker
             // 
             lblTracker.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            lblTracker.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblTracker.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblTracker.ForeColor = System.Drawing.Color.Green;
             lblTracker.Location = new System.Drawing.Point(581, 68);
             lblTracker.Name = "lblTracker";
             lblTracker.Size = new System.Drawing.Size(207, 45);
@@ -119,16 +134,20 @@
             // lblDifficulty
             // 
             lblDifficulty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            lblDifficulty.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblDifficulty.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblDifficulty.ForeColor = System.Drawing.Color.Green;
             lblDifficulty.Location = new System.Drawing.Point(12, 68);
             lblDifficulty.Name = "lblDifficulty";
             lblDifficulty.Size = new System.Drawing.Size(207, 45);
             lblDifficulty.TabIndex = 13;
-            lblDifficulty.Text = "Difficulty";
+            lblDifficulty.Text = "Difficulty:";
             lblDifficulty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblResult
             // 
+            lblResult.BackColor = System.Drawing.Color.Transparent;
+            lblResult.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblResult.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             lblResult.Location = new System.Drawing.Point(344, 214);
             lblResult.Name = "lblResult";
             lblResult.Size = new System.Drawing.Size(112, 38);
@@ -138,9 +157,11 @@
             // 
             // btnSubmit
             // 
-            btnSubmit.Location = new System.Drawing.Point(344, 362);
+            btnSubmit.Font = new System.Drawing.Font("Britannic Bold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnSubmit.ForeColor = System.Drawing.Color.Green;
+            btnSubmit.Location = new System.Drawing.Point(332, 356);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new System.Drawing.Size(112, 34);
+            btnSubmit.Size = new System.Drawing.Size(138, 50);
             btnSubmit.TabIndex = 15;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = false;
@@ -149,16 +170,20 @@
             // lblCategory
             // 
             lblCategory.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            lblCategory.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblCategory.Font = new System.Drawing.Font("Britannic Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblCategory.ForeColor = System.Drawing.Color.Green;
             lblCategory.Location = new System.Drawing.Point(12, 9);
             lblCategory.Name = "lblCategory";
             lblCategory.Size = new System.Drawing.Size(207, 45);
             lblCategory.TabIndex = 16;
-            lblCategory.Text = "Category";
+            lblCategory.Text = "Category:";
             lblCategory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblScore
             // 
+            lblScore.BackColor = System.Drawing.Color.Transparent;
+            lblScore.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            lblScore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             lblScore.Location = new System.Drawing.Point(344, 288);
             lblScore.Name = "lblScore";
             lblScore.Size = new System.Drawing.Size(112, 38);
